@@ -1,0 +1,1670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" coord="1,43.60,170.65,458.94,20.80;1,43.60,196.50,401.49,20.80">Effects of plasma turbulence on the nonlinear evolution of magnetic island in tokamak</title>
+				<funder ref="#_yXe6fEV">
+					<orgName type="full">DIII-D National Fusion Facility</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">United States Government</orgName>
+				</funder>
+				<funder ref="#_rvxWEkk">
+					<orgName type="full">Korean Ministry of Science and ICT</orgName>
+				</funder>
+				<funder ref="#_ffaDDPe">
+					<orgName type="full">National Research Foundation of Korea</orgName>
+				</funder>
+				<funder ref="#_HSTskb2">
+					<orgName type="full">U.S. Department of Energy, Office of Science, Office of Fusion Energy Sciences</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">KSTAR</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName coords="1,43.60,232.48,64.97,9.53"><forename type="first">Minjun</forename><forename type="middle">J</forename><surname>Choi</surname></persName>
+							<email>mjchoi@kfe.re.kr</email>
+							<idno type="ORCID">0000-0002-2825-6484</idno>
+							<affiliation key="aff1">
+								<orgName type="institution">Korea Institute of Fusion Energy</orgName>
+								<address>
+									<postCode>34133</postCode>
+									<settlement>Daejeon</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,137.88,232.48,69.80,9.53"><forename type="first">Lāszlo</forename><surname>Bardōczi</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">General Atomics</orgName>
+								<address>
+									<postBox>P.O. Box 85608</postBox>
+									<postCode>92186-5608</postCode>
+									<settlement>San Diego</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,217.59,232.48,65.23,9.53"><forename type="first">Jae-Min</forename><surname>Kwon</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Korea Institute of Fusion Energy</orgName>
+								<address>
+									<postCode>34133</postCode>
+									<settlement>Daejeon</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,291.12,232.48,49.82,9.53"><forename type="first">T</forename><forename type="middle">S</forename><surname>Hahm</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">Seoul National University</orgName>
+								<address>
+									<postCode>08826</postCode>
+									<settlement>Seoul</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,350.76,232.48,64.18,9.53"><forename type="first">Hyeon</forename><forename type="middle">K</forename><surname>Park</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="institution">Ulsan National Institute of Science and Technology</orgName>
+								<address>
+									<postCode>44919</postCode>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,425.31,232.48,57.60,9.53"><forename type="first">Jayhyun</forename><surname>Kim</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Korea Institute of Fusion Energy</orgName>
+								<address>
+									<postCode>34133</postCode>
+									<settlement>Daejeon</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,491.24,232.48,54.95,9.53"><forename type="first">Minho</forename><surname>Woo</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Korea Institute of Fusion Energy</orgName>
+								<address>
+									<postCode>34133</postCode>
+									<settlement>Daejeon</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,43.60,248.41,74.44,9.53"><forename type="first">Byoung-Ho</forename><surname>Park</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Korea Institute of Fusion Energy</orgName>
+								<address>
+									<postCode>34133</postCode>
+									<settlement>Daejeon</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,127.16,248.41,62.98,9.53"><forename type="first">Gunsu</forename><forename type="middle">S</forename><surname>Yun</surname></persName>
+							<idno type="ORCID">0000-0002-1880-5865</idno>
+							<affiliation key="aff5">
+								<orgName type="institution">Pohang University of Science and Technology</orgName>
+								<address>
+									<postCode>37673</postCode>
+									<settlement>Pohang</settlement>
+									<region>Gyeongbuk</region>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,213.28,248.41,57.28,9.53"><forename type="first">Eisung</forename><surname>Yoon</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="institution">Ulsan National Institute of Science and Technology</orgName>
+								<address>
+									<postCode>44919</postCode>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,290.38,248.41,69.08,9.53"><forename type="first">George</forename><surname>Mckee</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">General Atomics</orgName>
+								<address>
+									<postBox>P.O. Box 85608</postBox>
+									<postCode>92186-5608</postCode>
+									<settlement>San Diego</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">OPEN</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main" coord="1,43.60,170.65,458.94,20.80;1,43.60,196.50,401.49,20.80">Effects of plasma turbulence on the nonlinear evolution of magnetic island in tokamak</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">9D492EB81FEAD721C7BC4C4D529BBB28</idno>
+					<idno type="DOI">10.1038/s41467-020-20652-9</idno>
+					<note type="submission">Received: 11 May 2020; Accepted: 8 December 2020;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-04-11T23:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Magnetic islands (MIs), resulting from a magnetic field reconnection, are ubiquitous structures in magnetized plasmas. In tokamak plasmas, recent researches suggested that the interaction between an MI and ambient turbulence can be important for the nonlinear MI evolution, but a lack of detailed experimental observations and analyses has prevented further understanding. Here, we provide comprehensive observations such as turbulence spreading into an MI and turbulence enhancement at the reconnection site, elucidating intricate effects of plasma turbulence on the nonlinear MI evolution.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>M agnetic island (MI) is a ubiquitous structure formed by magnetic reconnection in magnetized plasmas and associated physics has been extensively studied. In tokamak plasmas, magnetohydrodynamic instabilities <ref type="bibr" coords="2,255.06,80.67,5.97,7.06" target="#b0">1,</ref><ref type="bibr" coords="2,261.03,80.67,2.99,7.06" target="#b1">2</ref> involving MIs are a serious concern since they destroy the nested structure of magnetic flux surfaces and lead to degradation of the plasma confinement. The stability of those instabilities depends on the current <ref type="bibr" coords="2,100.46,122.50,3.63,7.06" target="#b0">1</ref> and pressure 2 profiles of the plasma which are affected by the turbulent transport. Recent experiments <ref type="bibr" coords="2,259.14,132.99,3.68,7.06" target="#b2">[3]</ref><ref type="bibr" coords="2,262.83,132.99,3.68,7.06" target="#b3">[4]</ref><ref type="bibr" coords="2,262.83,132.99,3.68,7.06" target="#b4">[5]</ref><ref type="bibr" coords="2,262.83,132.99,3.68,7.06" target="#b5">[6]</ref><ref type="bibr" coords="2,262.83,132.99,3.68,7.06" target="#b6">[7]</ref><ref type="bibr" coords="2,262.83,132.99,3.68,7.06" target="#b7">[8]</ref><ref type="bibr" coords="2,262.83,132.99,3.68,7.06" target="#b8">[9]</ref><ref type="bibr" coords="2,262.83,132.99,3.68,7.06" target="#b9">[10]</ref><ref type="bibr" coords="2,262.83,132.99,3.68,7.06" target="#b10">[11]</ref><ref type="bibr" coords="2,262.83,132.99,3.68,7.06" target="#b11">[12]</ref><ref type="bibr" coords="2,266.51,132.99,7.37,7.06" target="#b12">[13]</ref> and simulations <ref type="bibr" coords="2,87.25,143.42,7.37,7.06" target="#b13">[14]</ref><ref type="bibr" coords="2,94.62,143.42,3.68,7.06" target="#b14">[15]</ref><ref type="bibr" coords="2,94.62,143.42,3.68,7.06" target="#b15">[16]</ref><ref type="bibr" coords="2,94.62,143.42,3.68,7.06" target="#b16">[17]</ref><ref type="bibr" coords="2,94.62,143.42,3.68,7.06" target="#b17">[18]</ref><ref type="bibr" coords="2,94.62,143.42,3.68,7.06" target="#b18">[19]</ref><ref type="bibr" coords="2,94.62,143.42,3.68,7.06" target="#b19">[20]</ref><ref type="bibr" coords="2,94.62,143.42,3.68,7.06" target="#b20">[21]</ref><ref type="bibr" coords="2,94.62,143.42,3.68,7.06" target="#b21">[22]</ref><ref type="bibr" coords="2,94.62,143.42,3.68,7.06" target="#b22">[23]</ref><ref type="bibr" coords="2,98.30,143.42,7.37,7.06" target="#b23">[24]</ref> found that an MI affects the evolution of ambient broadband fluctuations (or simply referred to as 'plasma turbulence' <ref type="bibr" coords="2,85.83,164.34,7.31,7.06" target="#b24">25</ref> ). Plasma turbulence is significantly altered by the MI itself or a modification of the equilibrium profiles due to its presence. In brief, it increases outside the MI and decreases inside the MI following the pressure gradient. This implies that the turbulent transport around an MI can be also modified, meaning that the evolution of plasma turbulence and the evolution of the MI are coupled. However, there has been relatively little experimental research progress <ref type="bibr" coords="2,144.57,237.59,5.96,7.06" target="#b6">7,</ref><ref type="bibr" coords="2,150.52,237.59,5.96,7.06" target="#b8">9,</ref><ref type="bibr" coords="2,156.48,237.59,8.94,7.06" target="#b10">11,</ref><ref type="bibr" coords="2,165.42,237.59,5.96,7.06" target="#b11">12</ref> in addressing the effects of plasma turbulence on the MI evolution to date.</p><p>Here, we report on experimental observations in tokamak plasmas, explaining various ways of coupling between their evolution. It is shown that the electron temperature (T e ) turbulence outside an MI is regulated by the flow shear and localized to the limited small region. The inhomogeneous turbulence around an MI would complicate the transport around the MI on which its stability depends. In addition, we present some observations which allow more direct intervention of plasma turbulence in the MI stability. They include turbulence spreading into the MI and the turbulence enhancement at the reconnection site, either retarding or facilitating the magnetic reconnection, respectively. These observations significantly extend our understanding of the nonlinear MI evolution in tokamak as well as provide general insights into the magnetic reconnection physics in magnetized plasmas.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Inhomogeneous low-k T e turbulence around an MI. While turbulence around an MI has been limitedly observed in other experiments, the Korea Superconducting Tokamak Advanced Research (KSTAR) <ref type="bibr" coords="2,116.56,478.20,7.31,7.06" target="#b25">26</ref> experiment <ref type="bibr" coords="2,170.53,478.20,3.63,7.06" target="#b7">8</ref> clearly demonstrates that the increase of the low-k (kρ i &lt; 1 where k is the wavenumber and ρ i is the ion Larmor radius) T e turbulence can be localized in the inner region (r &lt; r s where r s is an MI boundary) between the X-point and O-point poloidal angles (θ X &lt; θ &lt; θ O ). In the KSTAR experiments <ref type="bibr" coords="2,89.80,530.47,3.63,7.06" target="#b7">8</ref> , the plasma was heated by the constant ~1 MW neutral beam and an m/n = 2/1 MI was driven by the external n = 1 magnetic field perturbation for accurate measurements and analyses of small T e fluctuations around the MI using the 2D local T e diagnostics. m and n are the poloidal and toroidal mode numbers, respectively.</p><p>The result of 2D measurements in the inner region of the MI is summarized in Fig. <ref type="figure" coords="2,119.85,605.33,3.30,8.82" target="#fig_1">1</ref>. Figure <ref type="figure" coords="2,156.02,605.33,7.16,8.82" target="#fig_1">1a</ref>, b shows the coherence of the T e fluctuations at θ a = θ O and θ X &lt; θ b &lt; θ O , respectively. Fluctuations whose power exceeds the significance level (red dashed line) are not observed at the O-point angle, while the strong broadband fluctuations are observed near the X-point. It means that the lowk T e turbulence does not increase in the inner region at the Opoint angle as the MI grows, while it increases with the local T e gradient in the inner region near the X-point angle (see below). This can be understood as an effect of the inhomogeneous flow shear around the MI. It is known that the strong flow shearing rate can suppress the turbulence growth <ref type="bibr" coords="2,198.26,708.31,9.69,7.06" target="#b26">27,</ref><ref type="bibr" coords="2,207.95,708.31,6.46,7.06" target="#b27">28</ref> . Figure <ref type="figure" coords="2,246.84,709.93,10.54,8.82" target="#fig_1">1c,</ref><ref type="figure" coords="2,260.50,709.93,4.92,8.82">d</ref>  Further analysis of their temporal evolution measured in the inner region near the X-point (around θ d in Fig. <ref type="figure" coords="2,499.07,575.73,3.86,8.82" target="#fig_1">1</ref>) reveals the dynamic nature of their interactions. In the KSTAR experiment, the n = 1 perturbation field was slowly increasing in time, and the field penetration and the m/n = 2/1 locked MI onset occurred around t = 7.1 sec. The normalized inverse T e gradient scale length (a=L T e where a is the minor radius and L T e ¼ jT e =∇T e j) and the root-mean-square (RMS) amplitude of the low-k normalized T e turbulence measured in time are shown in Fig. <ref type="figure" coords="2,540.96,650.63,7.16,8.82" target="#fig_2">2a</ref>. The turbulence amplitude increase is correlated with the a=L T e increase around t = 7.29 s and its growth rate (the slope indicated by red dashed lines) becomes higher with a=L T e until t = 7.33 s. This implies that the T e gradient is a driver of the observed turbulence <ref type="bibr" coords="2,343.84,704.74,7.25,7.06" target="#b28">29</ref> . However, the growth rate is reduced after t = 7.33 s, which cannot be explained by a considerable increase of a=L T e around that time. The evolution of radial two-points measurements (orange and red squares) of v L showed that a notable flow shear (difference between red and orange squares) starts to develop around t = 7.31 s as shown in Fig. <ref type="figure" coords="3,258.86,340.63,7.55,8.82" target="#fig_2">2b</ref>. This suggests that the shear flow developed with the rapidly increased turbulence for t = 7.31-7.33 s in turn regulates the turbulence to a lower level than that expected from the prior trend. The nonlinear evolution of the turbulence and the flow shear around an MI would make the transport around an MI (and therefore its stability) more complicated. Their complex behavior should be carefully considered for a thorough understanding of the MI evolution. In addition, there are observations which indicate more direct effects of plasma turbulence on the MI evolution as follows.</p><p>Turbulence spreading into an MI. In the previous KSTAR experiment, the low-k T e turbulence remains still significant near the X-point due to the increased T e gradient and the insufficient flow shear there. The increased turbulence would be localized in the inner region when its amplitude is not sufficient to overcome the strong flow shear across an MI boundary formed by the reversed flow profile from the inner to the outer region <ref type="bibr" coords="3,252.57,528.77,3.63,7.06" target="#b7">8</ref> . In other words, this turbulence outside an MI can spread into the MI if its amplitude is sufficiently large <ref type="bibr" coords="3,156.53,549.69,7.25,7.06" target="#b29">30</ref> . In the recent DIII-D <ref type="bibr" coords="3,248.37,549.69,7.25,7.06" target="#b30">31</ref> and HL-2A 32 experiments <ref type="bibr" coords="3,110.95,560.17,9.42,7.06" target="#b11">12,</ref><ref type="bibr" coords="3,120.36,560.17,9.42,7.06" target="#b32">33,</ref><ref type="bibr" coords="3,129.78,560.17,6.28,7.06" target="#b33">34</ref> , observations which seem to result from the spreading of the density and temperature turbulence towards the O-point of an MI are reported. In addition, the nonlinear electrostatic gyrokinetic simulation based on the KSTAR plasma equilibrium and profiles showed that turbulence and the heat can spread into an MI which was initially stable region <ref type="bibr" coords="3,240.55,612.50,7.31,7.06" target="#b34">35</ref> .</p><p>Turbulence spreading <ref type="bibr" coords="3,137.31,622.93,7.37,7.06" target="#b35">[36]</ref><ref type="bibr" coords="3,144.68,622.93,3.68,7.06" target="#b36">[37]</ref><ref type="bibr" coords="3,148.36,622.93,7.37,7.06" target="#b37">[38]</ref> is expected to play an important role for the evolution of an MI <ref type="bibr" coords="3,159.82,633.42,7.25,7.06" target="#b38">39</ref> , since the accompanying heat or particle flux can change the pressure and current profile inside the MI. Detailed observation of the dynamics of turbulence spreading would be helpful to understand its effect on the MI evolution. After t = 7.34 s in Fig. <ref type="figure" coords="3,168.89,676.82,7.16,8.82" target="#fig_2">2a</ref>, the measurements which can be interpreted as intermittent turbulence spreading events are obtained.</p><p>Intermittent heat transport events, which are identified by sharp oscillations of a=L T e in Fig. <ref type="figure" coords="3,185.05,718.66,7.16,8.82" target="#fig_2">2a</ref>, are observed when the turbulence amplitude is sufficiently large. The time traces of local T e at the position I in the inner region, at position M inside the MI, and at position O in the outer region are also shown in Figs. <ref type="figure" coords="3,324.23,71.79,17.53,8.82" target="#fig_3">3a,b,</ref> and<ref type="figure" coords="3,362.72,71.79,3.00,8.82">c</ref>, respectively. Bold arrows in Fig. <ref type="figure" coords="3,499.58,71.79,10.73,8.82" target="#fig_3">3a,</ref><ref type="figure" coords="3,513.70,71.79,4.73,8.82">b</ref> indicate the enhanced heat transport from the inner region (where T e decreases) into the MI (where T e increases) during a single event, and the later dashed arrow in Fig. <ref type="figure" coords="3,446.68,103.20,8.42,8.82" target="#fig_3">3c</ref> indicates the rapid and global exhaust of the heat accumulated inside the MI. Four images (#1-#4) in Fig. <ref type="figure" coords="3,389.82,124.12,9.46,8.82" target="#fig_3">3d</ref> show the local relative change of the 2D T e during a single event against the quiescent period. From #1 to #3, T e increases inside the MI spontaneously. This increase can be a result of the intermittent leakage of the turbulent heat flux from the inner region through a path near the X-point where the flow shear is relatively weak. The interior magnetic topology of an MI is known to have a good perpendicular confinement characteristics <ref type="bibr" coords="3,322.24,195.75,7.25,7.06" target="#b39">40</ref> and the enhanced heat influx leads to the T e peaking inside the MI.</p><p>Measurements of the amplitude evolution of turbulence show that the observed transport events could result from turbulence spreading. Figure <ref type="figure" coords="3,372.47,239.20,4.53,8.82" target="#fig_4">4</ref> shows the evolution of the low-k normalized T e turbulence RMS amplitude (|δT e /〈T e 〉|) during the multiple events in high temporal resolution. Most events shown in Figs. <ref type="figure" coords="3,325.13,270.56,8.67,8.82" target="#fig_4">4a</ref> and<ref type="figure" coords="3,356.60,270.56,3.94,8.82">c</ref> are found to be correlated with the turbulence amplitudes shown in Figs. <ref type="figure" coords="3,411.82,281.04,11.33,8.82" target="#fig_4">4b,</ref><ref type="figure" coords="3,427.41,281.04,3.49,8.82">d</ref>. Specifically, |δT e /〈T e 〉| in the inner region (shown in Fig. <ref type="figure" coords="3,412.44,291.48,8.34,8.82" target="#fig_4">4b</ref>) starts to decrease with the event and |δT e /〈T e 〉| inside the island (shown in Fig. <ref type="figure" coords="3,481.89,301.96,8.47,8.82" target="#fig_4">4d</ref>) is peaked with the event, which is consistent with a picture of turbulence spreading. The former is relatively clear in the 1st, 2nd, 4th, and 6th event and the later is in the 2nd, 3rd, 4th, 5th, and 6th event due to the finite noise contribution. This turbulence spreading behavior was also confirmed by the 2D measurements and it may contribute to the saturation of the local turbulence amplitude after t = 7.35 s in Fig. <ref type="figure" coords="3,479.85,375.16,7.16,8.82" target="#fig_2">2a</ref>. The rapid and global exhaust of the accumulated heat inside the MI, observed for #3-#4, can be attributed to the global enhancement of the heat transport with the increased turbulence inside the MI.</p><p>Although this observation is made with an externally driven MI, its evolution should also be governed by a set of equations describing the tearing instability as illustrated in reference <ref type="bibr" coords="3,542.32,436.36,7.25,7.06" target="#b40">41</ref> . Therefore, what is shown in Figs. <ref type="figure" coords="3,435.23,448.40,6.54,8.82" target="#fig_3">3,</ref><ref type="figure" coords="3,444.93,448.40,4.53,8.82" target="#fig_4">4</ref> would represent a general feature of turbulence spreading dynamics around the MI. The observation implies two beneficial effects of turbulence spreading for the MI instabilities in tokamak plasmas. Firstly, the T e peaking inside an MI can be helpful for the MI saturation through its perturbation on the Ohmic current <ref type="bibr" coords="3,446.06,499.12,7.25,7.06" target="#b41">42</ref> as demonstrated in the auxiliary heating experiment <ref type="bibr" coords="3,411.99,509.55,7.31,7.06" target="#b42">43</ref> . Secondly, for an MI driven by the neoclassical tearing mode (NTM) <ref type="bibr" coords="3,441.07,520.04,7.25,7.06" target="#b43">44</ref> , the enhanced turbulent transport into the MI would eventually lead to the saturation at a smaller width or the stabilization <ref type="bibr" coords="3,440.84,540.96,3.63,7.06" target="#b6">7</ref> , since it can recover the bootstrap current loss 2 when magnetic shear is positive. Indeed, the partial stabilization of an NTM with the pellet injection was observed in the recent DIII-D and KSTAR experiments <ref type="bibr" coords="3,531.67,572.31,7.25,7.06" target="#b33">34</ref> in which spreading of the density turbulence was regarded as a key mechanism for the stabilization.</p><p>Turbulence increase at the X-point in the fast minor disruption. The uncontrolled MI is a serious problem in tokamak plasmas since it often results in the plasma disruption via the mode locking <ref type="bibr" coords="3,354.90,656.04,7.31,7.06" target="#b44">45</ref> . Here, we finally report an observation during the minor disruption of the locked MI in the KSTAR experiment, suggesting a role of the increased turbulence at the X-point in the fast plasma disruption.</p><p>Figure <ref type="figure" coords="3,345.49,699.44,8.67,8.82" target="#fig_5">5a</ref> shows the process of the fast m/n = 2/1 MI disruption captured by the 2D T e diagnostics. The constant external field was applied to induce a locked MI in this experiment. The normalized T e images represent the local relative    <ref type="bibr" coords="5,83.79,580.98,3.63,7.06" target="#b7">8</ref> . In the period C, the turbulence is localized in a distant region from the X-point. However, in the period D, the turbulence strength increases and it expands poloidally and reaches the X-point as shown in Fig. <ref type="figure" coords="5,188.62,614.00,7.68,8.82" target="#fig_5">5d</ref>.</p><p>The temporal evolution of the RMS amplitude of the normalized T e fluctuation at the X-point is shown as a red line in Fig. <ref type="figure" coords="5,280.35,634.92,7.55,8.82" target="#fig_5">5b</ref>. The amplitude starts to increase after t = 7.64 s (with an unidentified small T e drop event), and it shows an increasing trend before the disruption at t = 7.673 s and remains significant for the stochastic period. A noise level indicated by a red dashed line could be determined as an average over the period C. This shows that the observed turbulence at the X-point is involved with the entire destruction process of magnetic flux surfaces and correlated with the fast reconnection event. It was found that, however, in the stochastic period the T e turbulence is no longer localized in the small region but observed globally in the inner region, and the poloidal correlation length, which is about 4 cm before the disruption 8 , becomes too small &lt; 2 cm to be measured accurately. It is also noteworthy that this low-k T e turbulence is not observed in other m/n = 2/1 MI-associated disruptions which have a similar level of the locked mode amplitude but occur in a longer timescale (5-10 times) <ref type="bibr" coords="5,417.15,549.63,7.25,7.06" target="#b45">46</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Measurements of the low-k T e turbulence and the flow shear around an MI in KSTAR experiments revealed that the turbulence is nonlinearly regulated by the flow shear development around the MI and localized to the small region near the X-point. These spatial patterns of the turbulence and the shear flow are in broad agreement with the results from many fluid and gyrokinetic simulations <ref type="bibr" coords="5,347.24,645.55,9.16,7.06" target="#b14">15,</ref><ref type="bibr" coords="5,356.41,645.55,9.16,7.06" target="#b15">16,</ref><ref type="bibr" coords="5,365.57,645.55,9.16,7.06" target="#b18">19,</ref><ref type="bibr" coords="5,374.73,645.55,9.16,7.06" target="#b19">20,</ref><ref type="bibr" coords="5,383.90,645.55,9.16,7.06" target="#b21">22,</ref><ref type="bibr" coords="5,393.06,645.55,6.11,7.06" target="#b22">23</ref> . In particular, ref. <ref type="bibr" coords="5,476.11,645.55,7.25,7.06" target="#b21">22</ref> contains gyrokinetic simulation results based on the equilibrium and profiles of the KSTAR experiment. In spite of some limitations, a main role of the increasing flow shear toward the O-point in suppressing the turbulence was confirmed. Note that, however, different patterns of turbulence and flow were also observed in other experiments, and even a phenomenon which can be interpreted as a transition between strong and weak ω E×B states (low and high accessibility states, respectively) is observed <ref type="bibr" coords="5,470.15,729.23,7.25,7.06" target="#b46">47</ref> . The turbulence suppression around the O-point would have a destabilizing effect on the NTM in tokamak plasmas when magnetic shear is positive. With the suppressed turbulence and reduced heat influx from the inner (hotter) region, the resulting temperature profile would be sharper across the MI boundary and flatter inside the MI than the profile without the turbulence suppression. The flatter profile inside the MI increases the bootstrap current loss and enhance the growth rate of the NTM when magnetic shear is positive. Moreover, an increasing trend of the flow shear with the island width <ref type="bibr" coords="6,187.31,412.77,9.69,7.06" target="#b20">21,</ref><ref type="bibr" coords="6,197.01,412.77,6.46,7.06" target="#b47">48</ref> could form a positive feedback loop for the NTM MI growth.</p><p>When it comes to the NTM, it would be worth introducing that in the recent DIII-D experiment <ref type="bibr" coords="6,170.53,444.12,7.25,7.06" target="#b33">34</ref> a nonlinear three-wave coupling between the broadband (60-150 kHz) density turbulence and an m/n = 2/1 NTM MI is observed <ref type="bibr" coords="6,194.23,465.04,7.25,7.06" target="#b10">11</ref> . Figure <ref type="figure" coords="6,233.06,466.66,10.73,8.82" target="#fig_6">6a,</ref><ref type="figure" coords="6,246.56,466.66,4.73,8.82">b</ref> shows the power spectrogram of the low-k (k &lt; 1 cm -1 ) normalized density fluctuation (measured by the beam emission spectroscopy (BES) diagnostics) and the evolution of the n = 1 mode amplitude (the Mirnov coil diagnostics), respectively. The squared bicoherence using the wavelet transform <ref type="bibr" coords="6,149.10,517.37,7.25,7.06" target="#b48">49</ref> is calculated to study the nonlinear coupling in the density fluctuations, and the result for one short period is shown in Fig. <ref type="figure" coords="6,132.83,539.90,7.68,8.82" target="#fig_6">6d</ref>. The significant squared bicoherence is observed between the ~20 kHz NTM and the 60-150 kHz turbulence, demonstrating the existence of a nonlinear three-wave coupling among them. The temporal evolution of the strength of this coupling is shown in Fig. <ref type="figure" coords="6,163.28,581.75,8.47,8.82" target="#fig_6">6c</ref> by the summed squared bicoherence (b 2 tot ), which is sporadic and the strongest when the island width is intermediate not when it is the largest. Previous understanding on the interaction between density turbulence and an NTM MI relied on the pressure profile variation by the island growth <ref type="bibr" coords="6,70.41,632.12,3.63,7.06" target="#b5">6</ref> , but this observation suggests that additional mechanism such as the nonlinear beating 50 could be also important in the NTM evolution. Further experiments and analyses would be required to better identify its role in the NTM evolution definitely.</p><p>In tokamak plasmas, the evolution of a tearing mode MI is often described by a modified Rutherford equation <ref type="bibr" coords="6,234.48,694.88,7.35,7.06" target="#b50">[51]</ref><ref type="bibr" coords="6,241.83,694.88,3.67,7.06" target="#b51">[52]</ref><ref type="bibr" coords="6,245.50,694.88,7.35,7.06" target="#b52">[53]</ref> . Recently, many efforts have been made to develop an advanced model which can include the multi-scale and multi-physics interaction between a large scale MI and small scale turbulence as reviewed in reference <ref type="bibr" coords="6,338.12,318.61,7.25,7.06" target="#b23">24</ref> . Observations introduced in this article suggest that the model should be able to cover the nonlinear turbulence regulation by the shear flow development, the non-local effects of turbulence spreading <ref type="bibr" coords="6,383.41,350.01,7.31,7.06" target="#b38">39</ref> , an energy exchange between a low (m,n) mode and high (m,n) modes via a three-wave coupling as well as the anomalous resistivity by turbulence.</p><p>The anomalous enhancement of resistivity by turbulence <ref type="bibr" coords="6,529.06,381.36,7.31,7.06" target="#b53">54</ref> has been considered as one model to explain the fast timescale of reconnection events universally observed in magnetized plasmas <ref type="bibr" coords="6,318.90,412.77,7.25,7.06" target="#b54">55</ref> , since it can increase the dissipation rate of magnetic field and broaden the current sheet to facilitate the mass outflow. Increase of the T e turbulence at the X-point shown in Fig. <ref type="figure" coords="6,529.97,435.25,4.53,8.82" target="#fig_5">5</ref> and its correlation with the fast plasma disruption can be a supporting evidence for that mechanism. The correlated increase of the fluctuation power during the fast magnetic reconnection in laboratory plasmas was also reported in reference <ref type="bibr" coords="6,501.28,475.53,7.25,7.06" target="#b55">56</ref> where the fluctuation is electromagnetic. On the other hand, another mechanism to explain the fast reconnection is based on the formation of secondary islands, or plasmoids, on a thin current sheet which becomes tearing unstable <ref type="bibr" coords="6,431.83,517.37,7.37,7.06" target="#b56">[57]</ref><ref type="bibr" coords="6,439.20,517.37,3.68,7.06" target="#b57">[58]</ref><ref type="bibr" coords="6,439.20,517.37,3.68,7.06" target="#b58">[59]</ref><ref type="bibr" coords="6,442.88,517.37,7.37,7.06" target="#b59">[60]</ref> . Successive formation of plasmoid-like structures during reconnection events were observed in various conditions such as the magnetotail <ref type="bibr" coords="6,525.60,538.29,7.25,7.06" target="#b60">61</ref> and laboratory plasmas <ref type="bibr" coords="6,375.36,548.72,9.73,7.06" target="#b61">62,</ref><ref type="bibr" coords="6,385.09,548.72,6.48,7.06" target="#b62">63</ref> . In the KSTAR experiment <ref type="bibr" coords="6,496.18,548.72,7.25,7.06" target="#b61">62</ref> , coalescence of plasmoid-like structures (cold bubbles) with an m/n = 2/1 MI lead to the explosive major disruption. The cold bubbles were formed near the X-point of an m/n = 2/1 MI and the MI expanded by merging with the bubbles which convect towards the plasma center <ref type="bibr" coords="6,358.41,601.05,7.25,7.06" target="#b61">62</ref> . It may be understandable that the low-k T e turbulence discussed in this article was not observed in that case.</p><p>In summary, this article reports on various effects of plasma turbulence on the nonlinear MI evolution. Complex behavior of plasma turbulence can either retard or facilitate the magnetic reconnection process in tokamak plasmas.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>The externally driven MI and the T e diagnostics in KSTAR. In tokamak plasmas, MIs can be driven at the rational q = m/n (safety factor where m and n are poloidal and toroidal mode numbers, respectively) surface by the external magnetic field perturbation which has a resonant component to that rational surface <ref type="bibr" coords="6,530.36,713.98,5.73,5.57" target="#b40">41</ref> . The externally driven MI is locked in the position by the external field, which allows an accurate measurement of dynamics of the MI and ambient turbulence. For the externally driven MI experiment on KSTAR, the n = 1 external magnetic field perturbation was used to drive the m/n = 2/1 tearing mode MI at the q = 2 flux surface. The KSTAR plasma of the driven MI experiment has the major radius R = 180 cm, the minor radius a ~40 cm, the toroidal field B T = 2.0-2.2 T, the plasma current I p = 600-700 kA, the Spitzer resistivity η ~1.2 × 10 -7 Ohm ⋅ m, and β θ ~0.5 %. Note that the constant ~1 MW neutral beam was injected to heat the plasma and it was kept in the L-mode <ref type="bibr" coords="7,160.38,101.81,2.86,5.57" target="#b7">8</ref> .</p><p>Tokamak core plasma can be optically thick for the fundamental O-mode or the second harmonic X-mode of the electron cyclotron emission (ECE). The measured intensity of the optically thick ECE depends linearly on the local electron temperature by Kirchhoff's law and Rayleigh-Jeans law. On the other hand, the ECE frequency in tokamak plasma follows 1/R dependence of the toroidal field. A heterodyne detector can measure the radial profile of the electron temperature by measuring the ECE intensity selectively in frequency space. Note that in the KSTAR experiment introduced in this article the optical depth (thickness) is estimated as larger than 3 in the inner region, which enables local measurements of fine T e structures using ECE intensity measurements <ref type="bibr" coords="7,204.21,186.45,5.73,5.57" target="#b63">64</ref> .</p><p>The inverse T e gradient scale length in this article was obtained using the T e profile measurements from the 1D ECE diagnostics. The diagnostics was calibrated via the toroidal field scan experiment as well as by comparison with the other T e profile diagnostics. Since the temporal evolution of a=L T e is more important in the context of this article, the error bars of a=L T e in Fig. <ref type="figure" coords="7,203.75,231.42,6.84,6.96" target="#fig_2">2a</ref> are the standard deviation of measurements in the quasi-stationary period, and they do not mean the uncertainty of absolute values.</p><p>The electron cyclotron emission imaging (ECEI) diagnostics was developed to measure the local 2D T e fluctuation in (R, z) space using a vertical array of heterodyne detectors. The ECEI diagnostics on the KSTAR tokamak has 24 heterodyne detectors in vertical direction and each detector has 8 radial channels, i.e. total 192 channels <ref type="bibr" coords="7,109.19,290.77,5.73,5.57" target="#b64">65</ref> . It can measure the local 2D T e with a high spatial (ΔR ≈ Δz ≤ 2 cm) and temporal (Δt = 0.5-2 μs) resolution.</p><p>This diagnostics has been utilized to study various tokamak plasma phenomena from the magnetohydrodynamic instabilities to the low-k broadband turbulence <ref type="bibr" coords="7,284.31,316.17,5.73,5.57" target="#b65">66</ref> . For example, measurements of the local 2D T e have revealed the change of the magnetic field topology successfully in various magnetic reconnection events of magnetohydrodynamic instabilities <ref type="bibr" coords="7,149.39,341.57,7.65,5.57" target="#b61">62,</ref><ref type="bibr" coords="7,157.04,341.57,5.10,5.57" target="#b66">67</ref> . On the other hand, vertically adjacent channels of the 2D diagnostics allow us to measure the power spectrum of the turbulence accurately using the cross power spectrum (or the coherence after normalization with the auto power spectra as in Figs. <ref type="figure" coords="7,209.14,368.28,8.47,6.96" target="#fig_1">1a,</ref><ref type="figure" coords="7,220.08,368.28,3.15,6.96">b</ref>) between T e measurements along the poloidal direction in which the turbulence correlation length is sufficiently long. To study the temporal evolution, the RMS amplitude of the normalized T e turbulence was measured in time using the short time cross power spectrum of vertically adjacent ECEI measurements for Fig. <ref type="figure" coords="7,243.66,402.12,5.64,6.96" target="#fig_2">2a</ref>, and the auto power spectrum for Figs. 4b,d and 5b due to its requirement of the higher resolution. For the accurate analysis, the amplitude in Fig. <ref type="figure" coords="7,223.59,419.08,18.71,6.96" target="#fig_5">2a (5b</ref>) is obtained by averaging the measurements from 12 pairs in the inner region (4 channels closest to the X-point), and error bars indicate their standard deviation. In Figs. <ref type="figure" coords="7,268.32,436.03,5.20,6.96" target="#fig_1">1,</ref><ref type="figure" coords="7,276.04,436.03,2.60,6.96" target="#fig_2">2</ref>, measurements of phase difference between vertically adjacent ECEI channels are used to obtain the local dispersion relation (k z (f)) of the turbulence and so their laboratory phase velocities (v L ). Error bars of v L measurements represent the standard deviation of measurements for many k z s in the broadband frequency range.</p><p>The NTM and the n e fluctuation diagnostics in DIII-D. The m/n = 2/1 NTM in this article was observed in the DIII-D stationary hybrid H-mode plasma <ref type="bibr" coords="7,267.31,506.20,5.73,5.57" target="#b33">34</ref> . The plasma has the major radius R = 173 cm, the minor radius a ~60 cm, the toroidal field B T = 1.86 T, the plasma current I p = 1400 kA, and the normalized beta β N 1.39%.</p><p>The BES diagnostics <ref type="bibr" coords="7,115.43,540.10,5.73,5.57" target="#b67">68</ref> was used to measure the normalized local density fluctuation around the NTM MI. It can measure the low-k (k &lt; 1 cm -1 ) density fluctuation with a high spatial (ΔR ≈ Δz ≤ 1 cm) and temporal (Δt = 1 μs) resolution. Since the BES measurements are affected by the beam modulation or the crash event of the edge localized mode, their analyses shown in Fig. <ref type="figure" coords="7,265.27,575.21,3.58,6.96" target="#fig_6">6</ref> are limited to periods without them.</p><p>On the estimation of the E × B shearing rate. The E × B shearing rate in general toroidal geometry <ref type="bibr" coords="7,97.40,611.59,5.73,5.57" target="#b27">28</ref> assuming isotropic eddy shape <ref type="bibr" coords="7,198.65,611.59,5.73,5.57" target="#b68">69</ref> is given by</p><formula xml:id="formula_0" coords="7,122.91,626.03,168.76,29.87">ω E B ¼ RB θ ð Þ 2 B ∂ ∂ψ E r RB θ ¼ RB θ ð Þ 2 B ∂ ∂ψ Bv E B RB θ :<label>ð1Þ</label></formula><p>Even in the presence of a large MI, dψ ≈ dψ 0 = RB θ dr is a good approximation for poloidal flux function ψ at the points of flow measurements, noting that the distorted flux contours in figures are drawn after subtracting the local B θ at the rational surface where the MI exists. The flux squeezing effect due to an MI is negligible because B θ ≫ δB θ , although it may seem considerable from the cartoon. Then, we have</p><formula xml:id="formula_1" coords="7,104.82,718.00,186.85,20.49">ω E B ¼ RB θ ð Þ 2 B ∂ ∂ψ Bv E B RB θ % ∂v E B ∂r<label>ð2Þ</label></formula><p>if the radial variation of v E×B dominates over that of a geometrical factor RB θ B , i.e. estimated by ∂v L ∂r , is so drastic (~400 % change) between the locations θ c and θ d that using the expression in Eq. ( <ref type="formula" coords="7,405.82,106.13,2.90,6.96" target="#formula_1">2</ref>) for our estimation of ω E×B is justified.</p><p>Analysis method of the nonlinear three-wave coupling. The nonlinear threewave coupling can be identified using the fact that the coupled waves have a welldefined phase relation <ref type="bibr" coords="7,367.09,142.46,5.53,5.57" target="#b69">70</ref> . The squared bicoherence used in this article to measure the degree of the three-wave coupling among f 1 , f 2, and f 3 = f 1 + f 2 is defined as the fraction of the power at the frequency f 3 due to the coupling against the total power at f 3</p><formula xml:id="formula_2" coords="7,381.94,172.39,169.72,21.43">b 2 ðf 1 ; f 2 Þ ¼ jhX 1 X 2 X Ã 3 ij 2 hjX 1 X 2 j 2 ihjX 3 j 2 i ;<label>ð3Þ</label></formula><p>where X 1 , X 2 , and X 3 are the Morlet wavelet transformation 71 coefficients of our time-series data at the corresponding frequencies and 〈〉 means a time integration <ref type="bibr" coords="7,544.37,205.16,5.73,5.57" target="#b48">49</ref> .</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="2,268.61,709.93,23.06,8.82;2,43.60,720.36,248.03,8.82;2,43.60,730.14,85.16,10.31;2,128.81,730.14,35.78,10.31;2,164.58,730.85,127.05,9.60;2,303.59,429.30,248.08,8.82;2,303.59,439.73,11.20,9.60;2,316.63,439.02,235.17,10.31;2,303.59,449.51,155.96,9.53;2,459.44,453.88,12.33,5.80;2,473.50,449.51,17.23,9.46;2,490.62,449.51,43.42,10.17;2,533.88,450.22,17.82,9.54;2,303.59,460.65,248.21,8.82;2,303.59,470.43,248.08,9.53;2,303.59,480.86,248.06,9.53;2,303.59,491.35,79.76,9.53;2,383.19,491.35,58.52,10.25;2,441.58,491.35,29.09,10.25;2,470.55,492.06,81.10,9.54;2,303.59,501.78,47.23,9.53;2,350.70,502.49,200.91,9.52;2,303.59,512.97,21.35,9.46;2,326.66,511.36,110.39,10.44;2,436.93,512.27,32.88,10.25;2,469.70,516.64,12.33,5.80;2,483.76,511.36,67.92,10.44;2,303.59,522.70,32.55,9.53;2,335.96,521.79,215.70,11.21;2,303.59,533.18,129.77,9.53;2,433.25,533.89,118.46,9.52;2,303.59,542.71,248.08,10.44;2,303.59,554.81,40.97,8.82"><head></head><label></label><figDesc>shows the radial two-point measurements of the local average dispersion relation (k z (f)) at θ c and θ d , respectively. The dispersion measurement provides the laboratory frame phase velocity (v L = 2πf/k z ) whose radial derivative can be approximated as the radial shearing rate of the E × B flow, i.e. ω E×B ≈ Δv E×B /Δr ≈ Δv L /Δr. Here, we assumed that the gradient of the turbulence intrinsic phase velocity is negligible in the small measurement region (Δr ≪ r) and the flux surface squeezing effect is subdominant considering a drastic change of Δv L /Δr between θ c and θ d . The measurements show that ω E×B is strongly increasing towards the O-point angle (ω E×B ≈ 0.26 ± 0.15 × 10 5 [1/s] at θ d and ω E×B ≈ 1.11 ± 0.48 × 10 5 [1/s] at θ c ) 8 . This explains the absence of the fluctuation in the inner region at the O-point angle since ω E×B is expected to be larger than the typical auto decorrelation rate (10 5 [1/s]) of tokamak plasma turbulence.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="2,303.59,361.05,237.98,7.97;2,303.59,372.02,246.28,6.95;2,303.59,381.97,248.09,8.67;2,303.59,392.94,248.09,6.93;2,303.59,403.43,150.22,6.93;2,307.67,50.80,239.98,301.78"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Inhomogeneous turbulence and flow around a magnetic island. a-d The coherence (a, b) and local dispersion relations (c, d) of the lowk T e turbulence measured at θ a , θ b , θ c , and θ d , respectively. Orange and red lines in (c) or (d) represent the two radial measurements at orange and red circles shown in the illustration, respectively.</figDesc><graphic coords="2,307.67,50.80,239.98,301.78" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="3,43.60,218.53,248.10,7.97;3,43.60,229.44,248.10,7.82;3,43.60,239.92,209.96,7.76;3,43.60,250.36,248.11,6.93;3,43.60,260.84,248.10,6.93;3,43.60,271.27,225.71,6.93;3,43.60,281.76,233.53,7.76;3,43.60,292.19,243.56,6.93;3,47.68,50.80,239.99,159.25"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 Coupled evolution of turbulence and flow. a The normalized inverse T e gradient scale length and the root-mean-square (RMS) amplitude of the low-k T e turbulence, and (b) the laboratory phase velocity (v L ) measurements at two radial positions (red and orange squares) in the inner region near the X-point. The error bar of the RMS amplitude represents the standard deviation of the measurements using different diagnostics channels. The error bar of v L represents the standard deviation of the measurements using different wavenumbers in the broadband spectrum.</figDesc><graphic coords="3,47.68,50.80,239.99,159.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="4,43.60,356.03,508.06,7.83;4,43.60,366.52,508.10,7.76;4,43.60,376.95,27.73,6.93;4,135.61,50.80,324.00,296.28"><head>Fig. 3</head><label>3</label><figDesc>Fig. 3 Spontaneous T e peaking inside a magnetic island. a-c, T e measurements in time at positions I, M, and O (marked in the #1 image in d), respectively. d The 2D relative change of T e around the magnetic island during a single turbulence spreading event. Absolute time of #3 is indicated by a red dashed line in (a-c).</figDesc><graphic coords="4,135.61,50.80,324.00,296.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="4,43.60,618.95,486.26,8.24;4,43.60,629.86,344.34,7.82;4,135.61,406.49,324.00,203.98"><head>Fig. 4</head><label>4</label><figDesc>Fig. 4 Turbulence spreading into a magnetic island. a-d Low-pass filtered T e measurements (a, c) and the root-mean-square amplitudes of the normalized T e turbulence (b, d) in the inner region and the magnetic island region (I, M), respectively.</figDesc><graphic coords="4,135.61,406.49,324.00,203.98" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5" coords="5,43.60,440.05,508.13,7.76;5,43.60,450.48,508.07,7.82;5,43.60,460.49,508.06,8.24;5,135.61,50.80,324.00,380.30"><head>Fig. 5</head><label>5</label><figDesc>Fig. 5 Turbulence enhancement at the reconnection site. a The 2D relative change of T e around the magnetic island during a short period of T e collapse. The temporal range of #1-#4 are indicated by red dotted lines at the top of (b). b T e measurements (black) at position I (marked on the #2 image in a) and the rootmean-square amplitude of the normalized T e fluctuation (red) at the X-point. c, d The 2D strength of the T e turbulence for the period C and D, respectively.</figDesc><graphic coords="5,135.61,50.80,324.00,380.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6" coords="6,43.60,267.74,508.07,7.97;6,43.60,276.84,198.84,8.76;6,239.47,278.65,312.25,8.71;6,43.60,288.66,420.27,8.24;6,117.64,50.80,360.00,208.46"><head>Fig. 6</head><label>6</label><figDesc>Fig. 6 Three-wave coupling between turbulence and the neoclassical tearing mode (NTM). a The power spectrogram of density fluctuations. b The n = 1 mode amplitude. c The sum of the squared bicoherence (b 2 tot ) in the white dashed oval in (d), meaning the nonlinear coupling strength among the NTM fluctuation (f 1 ) and density turbulence (f 2 and f 3 ). d The squared bicoherence of density fluctuations for t = 2.2475-2.2495 s.</figDesc><graphic coords="6,117.64,50.80,360.00,208.46" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="7,303.59,63.32,248.08,25.85"><head></head><label></label><figDesc>In general, flux squeezing effects either due to an MI or equilibrium variation of RB θ B (or ðRB θ Þ 2 B ) exist. But in our case, the variation of ∂v E B</figDesc><table coords="7,303.59,63.32,81.00,12.34"><row><cell>1 v E B</cell><cell>∂v E B ∂r</cell><cell>) RB θ B</cell><cell>∂ ∂r</cell><cell>B RB θ</cell><cell>.</cell></row></table><note coords="7,538.70,79.94,12.97,9.18"><p><p>∂r</p>,</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0" coords="2,105.39,752.49,385.97,5.85"><p>NATURE COMMUNICATIONS | (2021) 12:375 | https://doi.org/10.1038/s41467-020-20652-9 | www.nature.com/naturecommunications</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>The authors would appreciate all the supports from the <rs type="funder">KSTAR</rs> team and the DIII-D team. One of the authors (M.J.C.) acknowledges helpful discussion with <rs type="person">Dr. K. Ida</rs> and <rs type="person">Dr. T. Rhodes</rs>. This research was supported by <rs type="funder">Korean Ministry of Science and ICT</rs> under <rs type="programName">NFRI R&amp;D programs</rs> (<rs type="grantNumber">NFRI-EN2001-11</rs> and <rs type="grantNumber">NFRI-EN2041-6</rs>), by <rs type="funder">National Research Foundation of Korea</rs> under <rs type="grantNumber">NRF-2019M1A7A1A03088462</rs>, and also by the <rs type="funder">U.S. Department of Energy, Office of Science, Office of Fusion Energy Sciences</rs>, using the <rs type="funder">DIII-D National Fusion Facility</rs>, a <rs type="institution">DOE Office of Science</rs> user facility, under Award(s) <rs type="grantNumber">DE-FC02-04ER54698</rs>. Disclaimer: This report was prepared as an account of work sponsored by an agency of the <rs type="funder">United States Government</rs>. Neither the United States Government nor any agency thereof, nor any of their employees, makes any warranty, express or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, or represents that its use would not infringe privately owned rights. Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not necessarily constitute or imply its endorsement, recommendation, or favoring by the <rs type="institution">United States Government</rs> or any agency thereof. The views and opinions of authors expressed herein do not necessarily state or reflect those of the <rs type="institution">United States Government</rs> or any agency thereof.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_rvxWEkk">
+					<idno type="grant-number">NFRI-EN2001-11</idno>
+					<orgName type="program" subtype="full">NFRI R&amp;D programs</orgName>
+				</org>
+				<org type="funding" xml:id="_ffaDDPe">
+					<idno type="grant-number">NFRI-EN2041-6</idno>
+				</org>
+				<org type="funding" xml:id="_HSTskb2">
+					<idno type="grant-number">NRF-2019M1A7A1A03088462</idno>
+				</org>
+				<org type="funding" xml:id="_yXe6fEV">
+					<idno type="grant-number">DE-FC02-04ER54698</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>Raw data were generated at the KSTAR facility. Derived data are available from the corresponding author upon request.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Code availability</head><p>The data analysis codes used for the figures of this article are available via the GitHub repository https://github.com/minjunJchoi/fluctana <ref type="bibr" coords="7,447.36,285.25,7.15,5.20" target="#b71">72,</ref><ref type="bibr" coords="7,454.52,285.25,4.77,5.20" target="#b72">73</ref> .</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head><p>M.J.C. developed the central idea of the research based on discussion with L.B., J.-M.K., T.S.H., H.K.P., and E.Y. about the previous experiment conducted by J.K. in the KSTAR and L.B. in the DIII-D. M.J.C. gathered and analyzed the data and carried out the further experiment with general guidance from J.K., M.W., and B.-H.P. L.B., J.-M.K., T.S.H., H.K.P., and E.Y. contributed to the interpretation of the experimental results and the revision of the draft. G.S.Y. and G.M. contributed to the acquisition of the diagnostics data presented in this article.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare no competing interests.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="7,306.19,372.53,245.46,6.96;7,317.93,381.26,119.32,6.96" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" coord="7,453.77,372.53,97.89,6.96;7,317.93,381.26,33.17,6.96">Finite-resistivity instabilities of a sheet pinch</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">P</forename><surname>Furth</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Killeen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">N</forename><surname>Rosenbluth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="7,356.77,381.27,35.80,6.96">Phys. Fluids</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">459</biblScope>
+			<date type="published" when="1963">1963</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,306.19,389.99,245.45,6.96;7,317.93,398.72,233.73,6.96;7,317.93,407.40,34.34,6.96" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" coord="7,478.21,389.99,73.43,6.96;7,317.93,398.72,180.46,6.96">Island bootstrap current modification of the nonlinear dynamics of the tearing mode</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Carrera</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">D</forename><surname>Hazeltine</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Kotschenreuther</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="7,504.45,398.73,35.76,6.96">Phys. Fluids</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">899</biblScope>
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,306.19,415.57,243.65,7.52;7,317.93,424.86,203.68,6.96" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" coord="7,370.32,415.57,179.52,7.52;7,317.93,424.86,100.68,6.96">Plasma flows and fluctuations with magnetic islands in the edge plasmas of J-TEXT tokamak</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">J</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="7,424.57,424.87,37.85,6.96">Nucl. Fusion</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page">73022</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,306.19,433.59,245.42,6.96;7,317.93,442.26,233.73,6.96;7,317.93,450.99,45.12,6.96" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" coord="7,356.60,433.59,195.02,6.96;7,317.93,442.26,179.12,6.96">Comparative studies of electrostatic turbulence induced transport in presence of resonant magnetic perturbations in RFX-mod</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Rea</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="7,503.09,442.27,37.40,6.96">Nucl. Fusion</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page">113021</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,306.19,459.17,245.48,7.52;7,317.93,468.46,79.07,6.96" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" coord="7,369.30,459.17,161.90,7.52">Plasma flow, turbulence and magnetic islands in TJ-II</title>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Estrada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="7,536.20,459.73,15.47,6.96;7,317.93,468.46,19.82,6.96">Nucl. Fusion</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page">26011</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,306.19,476.57,245.45,7.52;7,317.93,485.86,233.73,6.96;7,317.93,494.59,60.42,6.96" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" coord="7,372.87,476.57,178.77,7.52;7,317.93,485.86,183.34,6.96">Modulation of core turbulent density fluctuations by largescale neoclassical tearing mode islands in the DIII-D tokamak</title>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Bardóczi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="7,506.72,485.87,44.95,6.96">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page">215001</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,306.19,503.32,245.47,6.96;7,317.93,512.00,220.63,6.96;7,317.93,520.73,223.07,6.96;7,317.93,529.46,45.12,6.96" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coord="7,530.59,503.32,21.07,6.96;7,317.93,512.00,220.63,6.96;7,317.93,520.73,164.44,6.96">Impact of neoclassical tearing mode-turbulence multi-scale interaction in global confinement degradation and magnetic island stability</title>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Bardóczi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">A</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">J</forename><surname>La Haye</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">L</forename><surname>Rhodes</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><forename type="middle">R</forename><surname>Mckee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="7,487.39,520.74,41.94,6.96">Phys. Plasmas</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">122503</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,306.19,538.19,245.47,6.96;7,317.93,546.92,181.57,6.96" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coord="7,370.55,538.19,181.12,6.96;7,317.93,546.92,78.96,6.96">Multiscale interaction between a large scale magnetic island and small scale turbulence</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">J</forename><surname>Choi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="7,402.46,546.93,37.85,6.96">Nucl. Fusion</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page">126058</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,306.19,555.59,242.15,6.96;7,317.93,563.76,231.77,7.52;7,317.93,573.06,124.99,6.96" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coord="7,366.63,555.59,181.71,6.96;7,317.93,563.76,231.77,7.52;7,317.93,573.06,22.24,6.96">Experimental observation of multi-scale interactions among kink/tearing modes and high-frequency fluctuations in the HL-2A core NBI plasmas</title>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="7,345.94,573.06,37.79,6.96">Nucl. Fusion</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page">114003</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,309.45,581.23,242.23,7.52;7,318.21,590.46,228.17,6.96" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coord="7,363.46,581.23,188.22,7.52;7,318.21,590.46,125.42,6.96">Influence of m/n=2/1 magnetic islands on perpendicular flows and turbulence in HL-2A Ohmic plasmas</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Jiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="7,449.34,590.47,37.79,6.96">Nucl. Fusion</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page">26002</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,309.44,599.19,241.45,6.96;7,318.21,607.92,227.03,6.96;7,318.21,616.65,131.34,6.96" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" coord="7,371.34,599.19,179.56,6.96;7,318.21,607.92,166.53,6.96">Effect of multiscale interaction between an m/n=2/1 mode and micro instabilities on transport of KSTAR plasmas</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">J</forename><surname>Choi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" coord="7,499.52,607.93,45.73,6.96;7,318.21,616.66,76.13,6.96">The 27th IAEA Fusion Energy Conference</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="11" to="12" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,309.44,625.33,233.72,6.96;7,318.21,634.06,193.98,6.96" xml:id="b11">
+	<analytic>
+		<title level="a" type="main" coord="7,365.38,625.33,177.78,6.96;7,318.21,634.06,90.99,6.96">Localized modulation of turbulence by m/n=1/1 magnetic islands in the HL-2A tokamak</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Jiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="7,415.16,634.07,37.79,6.96">Nucl. Fusion</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page">66019</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,309.44,642.79,242.19,6.96;7,318.21,651.52,233.42,6.96;7,318.21,660.19,179.70,6.96" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" coord="7,365.44,642.79,186.20,6.96;7,318.21,651.52,233.42,6.96;7,318.21,660.19,19.46,6.96">Experimental study of the effect of 2/1 classical tearing mode on (intermediate, small)-scale microturbulence in the core of an EAST L mode plasma</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">J</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="7,343.50,660.20,95.23,6.96">Plasma Phys. Controlled Fusion</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page">25019</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,309.44,668.92,234.47,6.97;7,318.22,677.65,222.67,6.96;7,318.22,686.38,45.11,6.96" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" coord="7,415.56,668.92,128.35,6.97;7,318.22,677.65,110.00,6.96">The influence of magnetic islands on drift mode stability in magnetized plasma</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">R</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">W</forename><surname>Connor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="7,433.98,677.66,95.28,6.96">Plasma Phys. Controlled Fusion</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page">115007</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,309.45,695.11,241.93,6.96;7,318.22,703.79,187.54,6.96" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" coord="7,431.72,695.11,119.66,6.96;7,318.22,703.79,85.19,6.96">Behaviour of turbulent transport in the vicinity of a magnetic island</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Poli</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Bottino</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">G</forename><surname>Peeters</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="7,408.70,703.80,37.79,6.96">Nucl. Fusion</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page">75010</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,309.45,712.52,226.03,6.96;7,318.22,721.25,232.43,6.96;7,318.22,729.98,56.75,6.96" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" coord="7,386.25,712.52,149.23,6.96;7,318.22,721.25,184.78,6.96">The nonlinear coupling between gyroradius scale turbulence and mesoscale magnetic islands in fusion plasmas</title>
+		<author>
+			<persName coords=""><forename type="first">W</forename><forename type="middle">A</forename><surname>Hornsby</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="7,508.71,721.26,41.94,6.96">Phys. Plasmas</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">92301</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,52.22,242.19,6.96;8,58.22,60.95,116.60,6.96" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" coord="8,114.35,52.22,177.30,6.96;8,58.22,60.95,12.77,6.96">Three-dimensional MHD analysis of heliotron plasma with RMP</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Ichiguchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,77.78,60.95,37.79,6.96">Nucl. Fusion</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page">73023</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,69.68,227.82,6.96;8,58.22,77.85,203.68,7.52" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" coord="8,112.82,69.68,164.45,6.96;8,58.22,77.85,101.21,7.52">Impact of rotating magnetic islands on density profile flattening and turbulent transport</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Zarzoso</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,164.86,78.42,37.85,6.96">Nucl. Fusion</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page">113018</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,87.14,230.35,6.96;8,58.22,95.81,232.98,6.96;8,58.22,104.54,101.19,6.96" xml:id="b18">
+	<analytic>
+		<title level="a" type="main" coord="8,229.15,87.14,50.65,6.96;8,58.22,95.81,230.21,6.96">Dynamics of ion temperature gradient turbulence and transport with a static magnetic island</title>
+		<author>
+			<persName coords=""><forename type="first">O</forename><surname>Izacard</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Holland</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">D</forename><surname>James</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">P</forename><surname>Brennan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,58.22,104.55,41.94,6.96">Phys. Plasmas</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">22304</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,113.28,242.20,6.96;8,58.22,121.45,226.75,7.52" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" coord="8,234.43,113.28,57.22,6.96;8,58.22,121.45,124.31,7.52">Dual roles of shear flow in nonlinear multi-scale interactions</title>
+		<author>
+			<persName coords=""><forename type="first">Z</forename><forename type="middle">Q</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Z</forename><forename type="middle">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">Q</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Kishimoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,187.94,122.01,37.79,6.96">Nucl. Fusion</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page">16012</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,130.68,242.19,6.96;8,58.22,138.85,232.63,7.52;8,58.22,148.14,229.03,6.96" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" coord="8,274.62,130.68,17.02,6.96;8,58.22,138.85,232.63,7.52;8,58.22,148.14,69.04,6.96">Effect of magnetic islands on profiles, flows, turbulence and transport in nonlinear gyrokinetic simulations</title>
+		<author>
+			<persName coords=""><forename type="first">Bañón</forename><surname>Navarro</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Bardóczi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">A</forename><surname>Jenko</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Rhodes</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,132.77,148.15,95.23,6.96">Plasma Phys. Controlled Fusion</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page">34004</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,156.87,242.19,6.96;8,58.22,165.55,233.38,6.96;8,58.22,174.28,83.28,6.96" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" coord="8,114.29,156.87,177.35,6.96;8,58.22,165.55,212.67,6.96">Gyrokinetic simulation study of magnetic island effects on neoclassical physics and micro-instabilities in a realistic KSTAR plasma</title>
+		<author>
+			<persName coords=""><forename type="first">J.-M</forename><surname>Kwon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,276.21,165.55,15.40,6.96;8,58.22,174.28,24.03,6.96">Phys. Plasmas</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page">52506</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,183.01,240.72,6.96;8,58.22,191.74,233.39,6.96;8,58.22,200.41,56.67,6.96" xml:id="b22">
+	<analytic>
+		<title level="a" type="main" coord="8,124.21,183.01,165.96,6.96;8,58.22,191.74,186.57,6.96">Global gyrokinetic simulation of microturbulence with kinetic electrons in the presence of magnetic island in tokamak</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">S</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Z</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,250.24,191.75,41.38,6.96">Phys. Plasmas</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page">52510</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,209.14,242.16,6.96;8,58.22,217.87,233.38,6.96;8,58.22,226.61,112.46,6.96" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" coord="8,194.12,209.14,97.50,6.96;8,58.22,217.87,188.58,6.96">Multi-scale interactions between turbulence and magnetic islands and parity mixture -a review</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Ishizawa</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Kishimoto</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Nakamura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,252.23,217.88,39.38,6.96;8,58.22,226.61,53.22,6.96">Plasma Phys. Controlled Fusion</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page">54006</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,235.34,237.05,6.96" xml:id="b24">
+	<analytic>
+		<title level="a" type="main" coord="8,112.65,235.34,92.86,6.96">Anatomy of plasma turbulence</title>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Yamada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,211.07,235.34,30.76,6.96">Nat. Phys</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">721</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,244.01,232.27,6.96;8,58.22,252.74,186.16,6.96" xml:id="b25">
+	<analytic>
+		<title level="a" type="main" coord="8,112.25,244.01,169.48,6.96;8,58.22,252.74,82.16,6.96">Overview of KSTAR research progress and future plans toward ITER and K-DEMO</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">K</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,147.34,252.75,37.79,6.96">Nucl. Fusion</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page">112020</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,261.47,231.04,6.96;8,58.22,270.20,212.59,6.96" xml:id="b26">
+	<analytic>
+		<title level="a" type="main" coord="8,192.31,261.47,88.19,6.96;8,58.22,270.20,83.15,6.96">Influence of sheared poloidal rotation on edge turbulence</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Biglari</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">H</forename><surname>Diamond</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">W</forename><surname>Terry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,146.95,270.21,86.27,6.96">Phys. Fluids B: Plasma Phys</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,278.32,231.73,7.52;8,58.22,287.05,207.35,7.52;8,58.22,296.34,21.07,6.96" xml:id="b27">
+	<analytic>
+		<title level="a" type="main" coord="8,149.10,278.32,132.08,7.52;8,58.22,287.05,134.88,7.52">Flow shear induced fluctuation suppression in finite aspect ratio shaped tokamak plasma</title>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">S</forename><surname>Hahm</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">H</forename><surname>Burrell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,198.93,287.61,41.94,6.96">Phys. Plasmas</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">1648</biblScope>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,305.07,240.40,6.96" xml:id="b28">
+	<analytic>
+		<title level="a" type="main" coord="8,95.92,305.07,77.16,6.96">Drift waves and transport</title>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Horton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,178.58,305.08,48.28,6.96">Rev. Mod. Phys</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="735" to="778" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,313.74,242.21,6.96;8,58.22,321.91,160.65,7.52" xml:id="b29">
+	<analytic>
+		<title level="a" type="main" coord="8,116.11,313.74,175.56,6.96;8,58.22,321.91,54.08,7.52">Nonlocal properties of gyrokinetic turbulence and the role of EXB flow shear</title>
+		<author>
+			<persName coords=""><forename type="first">W</forename><forename type="middle">X</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,117.75,322.48,41.94,6.96">Phys. Plasmas</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">72306</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,331.20,228.32,6.96;8,58.22,339.94,165.58,6.96" xml:id="b30">
+	<analytic>
+		<title level="a" type="main" coord="8,116.79,331.20,160.99,6.96;8,58.22,339.94,66.29,6.96">DIII-D research to prepare for steady state advanced tokamak power plants</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">J</forename><surname>Buttery</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,129.88,339.94,49.05,6.96">J. Fusion Energy</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page">72</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,348.61,242.16,6.96;8,58.22,357.34,21.07,6.96" xml:id="b31">
+	<analytic>
+		<title level="a" type="main" coord="8,97.29,348.61,116.93,6.96">Overview of HL-2A recent experiments</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,219.46,348.62,37.40,6.96">Nucl. Fusion</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page">112017</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,366.07,218.58,6.96;8,58.22,374.80,233.43,6.96;8,58.22,383.53,118.48,6.96" xml:id="b32">
+	<analytic>
+		<title level="a" type="main" coord="8,98.25,366.07,169.78,6.96;8,58.22,374.80,233.43,6.96;8,58.22,383.53,3.54,6.96">Hysteresis relation between turbulence and temperature modulation during the heat pulse propagation into a magnetic island in DIII-D</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Ida</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,67.80,383.54,45.98,6.96">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page">245001</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,392.20,234.60,6.96;8,58.22,400.93,233.45,6.96;8,58.22,409.67,197.40,6.96" xml:id="b33">
+	<analytic>
+		<title level="a" type="main" coord="8,113.78,392.20,170.27,6.96;8,58.22,400.93,233.45,6.96;8,58.22,409.67,95.13,6.96">Controlled neoclassical tearing mode (NTM) healing by fueling pellets and its impact on electron cyclotron current drive requirements for complete NTM stabilization</title>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Bardóczi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,158.57,409.67,37.79,6.96">Nucl. Fusion</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page">126047</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,418.40,233.08,6.96;8,58.22,427.07,233.42,6.96;8,58.22,435.80,141.88,6.96" xml:id="b34">
+	<analytic>
+		<title level="a" type="main" coord="8,114.75,418.40,167.79,6.96;8,58.22,427.07,193.90,6.96">Gyrokinetic XGC1 simulation study of magnetic island effects on neoclassical and turbulence physics in a KSTAR plasma</title>
+		<author>
+			<persName coords=""><forename type="first">J.-M</forename><surname>Kwon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" coord="8,265.55,427.08,26.10,6.96;8,58.22,435.81,95.01,6.96">The 27th IAEA Fusion Energy Conference</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page">8</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,444.53,231.14,6.96;8,58.22,453.26,161.84,6.96" xml:id="b35">
+	<analytic>
+		<title level="a" type="main" coord="8,214.64,444.53,65.95,6.96;8,58.22,453.26,69.69,6.96">Radial propagation of turbulence in tokamaks</title>
+		<author>
+			<persName coords=""><forename type="first">X</forename><surname>Garbet</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Laurent</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Samain</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Chinardet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,133.79,453.27,37.79,6.96">Nucl. Fusion</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page">963</biblScope>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,461.94,224.92,6.96;8,58.22,470.67,226.52,6.96;8,58.22,479.40,106.85,6.96" xml:id="b36">
+	<analytic>
+		<title level="a" type="main" coord="8,240.32,461.94,34.05,6.96;8,58.22,470.67,181.73,6.96">Turbulence spreading into the linearly stable zone and transport scaling</title>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">S</forename><surname>Hahm</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">H</forename><surname>Diamond</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Z</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Itoh</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">I</forename><surname>Itoh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,245.25,470.67,39.49,6.96;8,58.22,479.41,53.22,6.96">Plasma Phys. Controlled Fusion</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page">323</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,487.57,242.21,7.52;8,58.22,496.80,213.84,6.96" xml:id="b37">
+	<analytic>
+		<title level="a" type="main" coord="8,112.54,487.57,179.13,7.52;8,58.22,496.80,111.62,6.96">The impact of edge radial electric fields on edge-scrape-off layer coupling in the TJ-II stellarator</title>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Grenfell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,175.01,496.81,37.79,6.96">Nucl. Fusion</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page">14001</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,505.53,218.40,6.96;8,58.22,513.70,224.01,7.52;8,58.22,523.00,21.07,6.96" xml:id="b38">
+	<analytic>
+		<title level="a" type="main" coord="8,156.19,505.53,111.66,6.96;8,58.22,513.70,133.93,7.52">Mesoscopic transport events and the breakdown of Fick&apos;s law for turbulent fluxes</title>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">S</forename><surname>Hahm</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">H</forename><surname>Diamond</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,197.35,514.27,60.02,6.96">J. Korean Phys. Soc</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page">747</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,531.73,237.98,6.96;8,58.22,540.40,209.81,6.96;8,58.22,549.13,21.07,6.96" xml:id="b39">
+	<analytic>
+		<title level="a" type="main" coord="8,109.25,531.73,178.19,6.96;8,58.22,540.40,122.88,6.96">Observation of reduced heat transport inside the magnetic island O point in the large helical device</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Inagaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,186.52,540.41,45.98,6.96">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page">55002</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,557.86,242.21,6.96;8,58.22,566.59,37.91,6.96" xml:id="b40">
+	<analytic>
+		<title level="a" type="main" coord="8,150.29,557.86,89.45,6.96">Forced magnetic reconnection</title>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">S</forename><surname>Hahm</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">M</forename><surname>Kulsrud</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,245.03,557.87,35.40,6.96">Phys. Fluids</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page">2412</biblScope>
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,575.27,203.43,6.96;8,58.22,584.00,233.40,6.96;8,58.22,592.73,90.23,6.96" xml:id="b41">
+	<analytic>
+		<title level="a" type="main" coord="8,147.12,575.27,105.77,6.96;8,58.22,584.00,230.45,6.96">On the stabilization of neoclassical magnetohydrodynamic tearing modes using localized current drive or heating</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">C</forename><surname>Hegna</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">D</forename><surname>Callen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,58.22,592.74,41.94,6.96">Phys. Plasmas</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">2940</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,601.46,242.21,6.96;8,58.22,610.13,137.91,6.96" xml:id="b42">
+	<analytic>
+		<title level="a" type="main" coord="8,122.57,601.46,169.09,6.96;8,58.22,610.13,26.89,6.96">Effect of heating on the suppression of tearing modes in tokamaks</title>
+		<author>
+			<persName coords=""><forename type="first">I</forename><forename type="middle">G J</forename><surname>Classen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,90.99,610.14,45.97,6.96">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page">35001</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,618.86,229.24,6.96;8,58.22,627.59,195.23,6.96" xml:id="b43">
+	<analytic>
+		<title level="a" type="main" coord="8,107.66,618.86,171.03,6.96;8,58.22,627.59,90.88,6.96">Observation of nonlinear neoclassical pressure-gradientdriven tearing modes in TFTR</title>
+		<author>
+			<persName coords=""><forename type="first">Z</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,155.51,627.60,45.97,6.96">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page">4663</biblScope>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,636.33,231.38,6.96;8,58.22,645.00,45.05,6.96" xml:id="b44">
+	<analytic>
+		<title level="a" type="main" coord="8,122.12,636.33,103.56,6.96">Survey of disruption causes at JET</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">C</forename><surname>De Vries</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,231.36,636.33,37.85,6.96">Nucl. Fusion</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page">53018</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.45,653.73,233.97,6.96;8,58.22,661.90,232.65,7.52;8,58.22,671.19,53.78,6.96" xml:id="b45">
+	<analytic>
+		<title level="a" type="main" coord="8,99.04,653.73,184.38,6.96;8,58.22,661.90,89.56,7.52">EX/P7-14 Evolution of locked mode in the presence of nonaxisymmetric fields in KSTAR</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" coord="8,163.44,662.47,124.32,6.96">The 27th IAEA Fusion Energy Conference</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="7" to="14" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.46,679.92,241.72,6.96;8,58.22,688.60,162.42,6.96" xml:id="b46">
+	<analytic>
+		<title level="a" type="main" coord="8,98.25,679.92,192.93,6.96;8,58.22,688.60,79.67,6.96">Self-regulated oscillation of transport and topology of magnetic islands in toroidal plasmas</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Ida</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,143.60,688.60,25.14,6.96">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">16165</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.46,696.77,239.72,7.52;8,58.22,706.06,149.54,6.96" xml:id="b47">
+	<analytic>
+		<title level="a" type="main" coord="8,98.25,696.77,190.92,7.52;8,58.22,706.06,38.97,6.96">Observation of plasma flow at the magnetic island in the large helical device</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Ida</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,102.61,706.07,45.97,6.96">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page">15002</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,49.46,714.79,242.19,6.96;8,58.22,723.46,90.24,6.96" xml:id="b48">
+	<analytic>
+		<title level="a" type="main" coord="8,132.78,714.79,156.23,6.96">Wavelet bicoherence: a new turbulence analysis tool</title>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">P</forename><surname>Van Milligen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,58.22,723.47,41.94,6.96">Phys. Plasmas</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">3017</biblScope>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.45,52.22,242.23,6.96;8,318.22,60.95,182.36,6.96" xml:id="b49">
+	<analytic>
+		<title level="a" type="main" coord="8,376.90,52.22,174.78,6.96;8,318.22,60.95,67.90,6.96">Generation and amplification of magnetic islands by drift interchange turbulence</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Muraglia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,391.69,60.95,45.97,6.96">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page">95003</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.45,69.68,242.20,6.96;8,318.22,78.41,21.14,6.96" xml:id="b50">
+	<analytic>
+		<title level="a" type="main" coord="8,371.85,69.68,111.74,6.96">Nonlinear growth of the tearing mode</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">H</forename><surname>Rutherford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,489.20,69.69,35.23,6.96">Phys. Fluids</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">1903</biblScope>
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.45,87.14,227.95,6.96;8,318.22,95.81,188.20,6.96" xml:id="b51">
+	<analytic>
+		<title level="a" type="main" coord="8,363.18,87.14,174.23,6.96;8,318.22,95.81,81.26,6.96">Helical temperature perturbations associated with tearing modes in tokamak plasmas</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Fitzpatrick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,405.18,95.82,41.95,6.96">Phys. Plasmas</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="825" to="838" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.45,104.54,242.16,6.96;8,318.22,113.28,144.72,6.96" xml:id="b52">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Zohm</surname></persName>
+		</author>
+		<ptr target="https://books.google.co.kr/books?id=goKbBQAAQBAJ" />
+		<title level="m" coord="8,347.54,104.54,135.54,6.96">Magnetohydrodynamic Stability of Tokamaks</title>
+		<imprint>
+			<publisher>Wiley</publisher>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.45,121.45,242.19,7.52;8,318.22,130.12,149.03,7.52" xml:id="b53">
+	<analytic>
+		<title level="a" type="main" coord="8,440.05,121.45,111.59,7.52;8,318.22,130.12,53.26,7.52">An emerging flux model for the solar flare phenomenon</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Heyvaerts</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">R</forename><surname>Priest</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">M</forename><surname>Rust</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,377.74,130.69,37.32,6.96">Astrophys. J</title>
+		<imprint>
+			<biblScope unit="volume">216</biblScope>
+			<biblScope unit="page">123</biblScope>
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.45,139.41,242.21,6.96;8,318.22,148.14,34.34,6.96" xml:id="b54">
+	<analytic>
+		<title level="a" type="main" coord="8,419.93,139.41,67.45,6.96">Magnetic reconnection</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Yamada</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Kulsrud</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Ji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,492.72,139.42,47.66,6.96">Rev. Mod. Phys</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page">603</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.45,156.31,221.29,7.52;8,318.22,165.55,163.65,6.96" xml:id="b55">
+	<analytic>
+		<title level="a" type="main" coord="8,353.71,156.31,177.03,7.52;8,318.22,165.55,52.74,6.96">Electromagnetic fluctuations during fast reconnection in a laboratory plasma</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Ji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,376.72,165.55,45.97,6.96">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page">115001</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.45,174.28,209.99,6.96;8,318.22,183.01,230.10,6.96;8,318.22,191.74,21.14,6.96" xml:id="b56">
+	<analytic>
+		<title level="a" type="main" coord="8,481.04,174.28,38.40,6.96;8,318.22,183.01,147.10,6.96">Instability of current sheets and formation of plasmoid chains</title>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">F</forename><surname>Loureiro</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">A</forename><surname>Schekochihin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">C</forename><surname>Cowley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,470.78,183.02,41.94,6.96">Phys. Plasmas</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">100703</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.45,200.41,242.21,6.96;8,318.22,209.14,214.73,6.96;8,318.22,217.87,83.26,6.96" xml:id="b57">
+	<analytic>
+		<title level="a" type="main" coord="8,489.55,200.41,62.11,6.96;8,318.22,209.14,194.14,6.96">Fast reconnection in high-Lundquist-number plasmas due to the plasmoid Instability</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Bhattacharjee</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y.-M</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Rogers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,517.55,209.15,15.40,6.96;8,318.22,217.88,24.10,6.96">Phys. Plasmas</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">112102</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.45,226.61,222.96,6.96;8,318.22,235.34,233.45,6.96;8,318.22,244.01,21.14,6.96" xml:id="b58">
+	<analytic>
+		<title level="a" type="main" coord="8,490.57,226.61,41.84,6.96;8,318.22,235.34,144.20,6.96">Fast magnetic reconnection in the plasmoid-dominated regime</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">A</forename><surname>Uzdensky</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">F</forename><surname>Loureiro</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">A</forename><surname>Schekochihin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,467.77,235.34,45.23,6.96">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page">235002</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.45,252.74,235.55,6.96;8,318.22,261.47,148.18,6.96" xml:id="b59">
+	<analytic>
+		<title level="a" type="main" coord="8,420.26,252.74,124.74,6.96;8,318.22,261.47,20.39,6.96">Formation of plasmoids during sawtooth crashes</title>
+		<author>
+			<persName coords=""><forename type="first">Q</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Günter</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Lackner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,344.01,261.48,37.85,6.96">Nucl. Fusion</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="72005" to="072005" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.45,269.64,242.21,7.52;8,318.22,278.88,160.53,6.96" xml:id="b60">
+	<analytic>
+		<title level="a" type="main" coord="8,364.82,269.64,186.84,7.52;8,318.22,278.88,75.67,6.96">Coalescence of magnetic flux ropes in the ion diffusion region of magnetic reconnection</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,399.57,278.88,30.76,6.96">Nat. Phys</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">263</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.45,287.05,230.91,7.52;8,318.22,296.34,233.44,6.96;8,318.22,305.07,56.75,6.96" xml:id="b61">
+	<analytic>
+		<title level="a" type="main" coord="8,371.34,287.05,169.02,7.52;8,318.22,296.34,191.33,6.96">2D/3D electron temperature fluctuations near explosive MHD instabilities accompanied by minor and major disruptions</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">J</forename><surname>Choi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,514.43,296.35,37.23,6.96">Nucl. Fusion</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page">66013</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.45,313.74,242.25,6.96;8,318.22,322.47,229.19,6.96;8,318.22,331.20,90.97,6.96" xml:id="b62">
+	<analytic>
+		<title level="a" type="main" coord="8,482.23,313.74,69.47,6.96;8,318.22,322.47,208.45,6.96">Laboratory observation of resistive electron tearing in a two-fluid reconnecting current sheet</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Jara-Almonte</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Yamada</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Yoo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Fox</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,532.01,322.48,15.40,6.96;8,318.22,331.21,28.05,6.96">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page">95001</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.45,339.94,228.80,6.96;8,318.22,348.61,71.74,6.96" xml:id="b63">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">I</forename><forename type="middle">H</forename><surname>Hutchinson</surname></persName>
+		</author>
+		<title level="m" coord="8,374.23,339.94,122.71,6.96">Principles of Plasma Diagnostics 2nd edn</title>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.45,357.34,242.19,6.96;8,318.22,366.07,149.31,6.97" xml:id="b64">
+	<analytic>
+		<title level="a" type="main" coord="8,365.90,357.34,185.74,6.96;8,318.22,366.07,28.84,6.96">Quasi 3-D ECE imaging system for study of MHD instabilities in KSTAR</title>
+		<author>
+			<persName coords=""><forename type="first">G</forename><forename type="middle">S</forename><surname>Yun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,353.71,366.08,52.76,6.96">Rev. Sci. Instrum</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="11D" to="820" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.45,374.80,242.20,6.96;8,318.22,383.53,219.61,6.96;8,318.22,392.20,48.68,6.96" xml:id="b65">
+	<analytic>
+		<title level="a" type="main" coord="8,353.94,374.80,197.71,6.96;8,318.22,383.53,165.51,6.96">Newly uncovered physics of MHD instabilities using 2-D electron cyclotron emission imaging system in toroidal plasmas</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">K</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,489.49,383.54,40.46,6.96">Adv. Phys.: X</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">1633956</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.45,400.93,242.17,6.96;8,318.22,409.67,225.23,6.96;8,318.22,418.40,45.11,6.96" xml:id="b66">
+	<analytic>
+		<title level="a" type="main" coord="8,369.64,400.93,181.98,6.96;8,318.22,409.67,161.93,6.96">Observation of high-field-side crash and heat transfer during sawtooth oscillation in magnetically confined plasmas</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">K</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,485.92,409.67,45.91,6.96">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page">195003</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.45,427.07,234.01,6.96;8,318.22,435.80,231.68,6.96;8,318.22,444.53,90.69,6.96" xml:id="b67">
+	<analytic>
+		<title level="a" type="main" coord="8,318.22,435.80,201.31,6.96">Wide-field turbulence imaging with beam emission spectroscopya)</title>
+		<author>
+			<persName coords=""><forename type="first">G</forename><forename type="middle">R</forename><surname>Mckee</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">J</forename><surname>Fonck</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">W</forename><surname>Shafer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">I</forename><forename type="middle">U</forename><surname>Uzun-Kaymak</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Z</forename><surname>Yan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,525.09,435.81,24.81,6.96;8,318.22,444.54,25.50,6.96">Rev. Sci. Instrum</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="10D" to="741" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.45,453.26,217.24,6.96;8,318.22,461.94,231.80,6.96;8,318.22,470.67,37.91,6.96" xml:id="b68">
+	<analytic>
+		<title level="a" type="main" coord="8,361.88,453.26,164.82,6.96;8,318.22,461.94,176.53,6.96">Effects of E X B velocity shear and magnetic shear on turbulence and transport in magnetic confinement devices</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">H</forename><surname>Burrell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,500.15,461.94,41.94,6.96">Phys. Plasmas</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">1499</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.45,479.40,239.38,6.96;8,318.22,488.13,216.32,6.96" xml:id="b69">
+	<analytic>
+		<title level="a" type="main" coord="8,401.62,479.40,147.22,6.96;8,318.22,488.13,82.73,6.96">Digital bispectral analysis and its applications to nonlinear wave interactions</title>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><forename type="middle">C</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">J</forename><surname>Powers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,406.26,488.13,85.05,6.96">IEEE Trans. Plasma Sci. PS</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">120</biblScope>
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.45,496.80,242.21,6.96;8,318.22,505.53,86.78,6.96" xml:id="b70">
+	<analytic>
+		<title level="a" type="main" coord="8,409.55,496.80,108.68,6.96">A practical guide to wavelet analysis</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Torrence</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><forename type="middle">P</forename><surname>Compo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,523.33,496.81,28.32,6.96;8,318.22,505.54,41.93,6.96">Bull. Am. Meteorol. Soc</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page">61</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.45,514.26,240.26,6.96;8,318.22,523.00,164.28,6.96" xml:id="b71">
+	<monogr>
+		<title level="m" type="main" coord="8,354.22,514.26,195.49,6.96;8,318.22,523.00,31.84,6.96">Spectral data analysis methods for the two-dimensional imaging diagnostics</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">J</forename><surname>Choi</surname></persName>
+		</author>
+		<ptr target="https://arxiv.org/abs/1907.09184v3" />
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,309.45,531.17,220.55,7.52;8,318.22,540.40,71.98,6.96" xml:id="b72">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">J</forename><surname>Choi</surname></persName>
+		</author>
+		<idno type="DOI">10.5281/zenodo.4281684</idno>
+		<ptr target="https://doi.org/10.5281/zenodo.4281684" />
+		<title level="m" coord="8,354.22,531.17,99.96,7.52">minjunjchoi/fluctana: first release</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

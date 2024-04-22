@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" coord="2,60.57,106.69,463.16,24.72;2,60.57,135.08,365.02,24.72;2,60.57,161.66,110.80,28.52;2,171.38,171.89,7.88,18.63;2,180.02,163.47,332.81,24.72">Improved accuracy in the estimation of the tearing mode stability parameters (∆ ′ and w c ) using 2D ECEI data in KSTAR</title>
+				<funder ref="#_rXnhAuz">
+					<orgName type="full">US DoE</orgName>
+				</funder>
+				<funder ref="#_nQqTEzn">
+					<orgName type="full">UK Engineering and Physical Sciences Research Council</orgName>
+				</funder>
+				<funder ref="#_NzZumVU">
+					<orgName type="full">NRF Korea</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2014-06-03">3 June 2014</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName coords="2,60.57,211.23,68.69,11.35"><forename type="first">Minjun</forename><forename type="middle">J</forename><surname>Choi</surname></persName>
+							<email>minjunchoi@postech.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Pohang University of Science and Tehcnology</orgName>
+								<address>
+									<postCode>790-784</postCode>
+									<settlement>Pohang</settlement>
+									<region>Gyungbuk</region>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="2,139.63,211.23,64.74,11.35"><forename type="first">Gunsu</forename><forename type="middle">S</forename><surname>Yun</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Pohang University of Science and Tehcnology</orgName>
+								<address>
+									<postCode>790-784</postCode>
+									<settlement>Pohang</settlement>
+									<region>Gyungbuk</region>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="2,214.74,211.23,73.78,11.35"><forename type="first">Woochang</forename><surname>Lee</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Pohang University of Science and Tehcnology</orgName>
+								<address>
+									<postCode>790-784</postCode>
+									<settlement>Pohang</settlement>
+									<region>Gyungbuk</region>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="2,298.90,211.23,67.70,11.35"><forename type="first">Hyeon</forename><forename type="middle">K</forename><surname>Park</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Ulsan National Institute of Science and Technology</orgName>
+								<address>
+									<postCode>689-798</postCode>
+									<settlement>Ulsan</settlement>
+									<region>Gyungbuk</region>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="2,60.57,223.53,85.39,11.35"><forename type="first">Young-Seok</forename><surname>Park</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Columbia University</orgName>
+								<address>
+									<postCode>10027</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="2,156.33,223.53,85.32,11.35"><forename type="first">Steve</forename><forename type="middle">A</forename><surname>Sabbagh</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Columbia University</orgName>
+								<address>
+									<postCode>10027</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="2,252.03,223.53,80.35,11.35"><forename type="first">Kieran</forename><forename type="middle">J</forename><surname>Gibson</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">York Plasma Institute</orgName>
+								<orgName type="department" key="dep2">Department of Physics</orgName>
+								<orgName type="institution">University of York</orgName>
+								<address>
+									<postCode>YO10 5DD</postCode>
+									<settlement>Heslington</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="2,60.57,235.84,105.79,11.35"><forename type="first">Christopher</forename><surname>Bowman</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">York Plasma Institute</orgName>
+								<orgName type="department" key="dep2">Department of Physics</orgName>
+								<orgName type="institution">University of York</orgName>
+								<address>
+									<postCode>YO10 5DD</postCode>
+									<settlement>Heslington</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="2,176.75,235.83,83.25,11.35"><forename type="first">Calvin</forename><forename type="middle">W</forename><surname>Domier</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="institution">University of California at Davis</orgName>
+								<address>
+									<postCode>95616</postCode>
+									<settlement>Davis</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="2,60.57,248.14,106.97,11.35"><forename type="first">Neville</forename><forename type="middle">C</forename><surname>Luhmann</surname><genName>Jr</genName></persName>
+							<affiliation key="aff4">
+								<orgName type="institution">University of California at Davis</orgName>
+								<address>
+									<postCode>95616</postCode>
+									<settlement>Davis</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="2,177.91,248.14,64.15,11.35"><forename type="first">Jun-Gyo</forename><surname>Bak</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="institution">National Fusion Research Institute</orgName>
+								<address>
+									<postCode>169-148</postCode>
+									<settlement>Daejeon</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="2,252.44,248.14,57.65,11.35"><forename type="first">Sang</forename><forename type="middle">G</forename><surname>Lee</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="institution">National Fusion Research Institute</orgName>
+								<address>
+									<postCode>169-148</postCode>
+									<settlement>Daejeon</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="2,79.20,260.44,64.79,11.35"><forename type="first">Kstar</forename><surname>Team</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="institution">National Fusion Research Institute</orgName>
+								<address>
+									<postCode>169-148</postCode>
+									<settlement>Daejeon</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" coord="2,60.57,106.69,463.16,24.72;2,60.57,135.08,365.02,24.72;2,60.57,161.66,110.80,28.52;2,171.38,171.89,7.88,18.63;2,180.02,163.47,332.81,24.72">Improved accuracy in the estimation of the tearing mode stability parameters (∆ ′ and w c ) using 2D ECEI data in KSTAR</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2014-06-03">3 June 2014</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B60EC18C91338BDB8D0154DD3C601D3C</idno>
+					<idno type="DOI">10.1088/0029-5515/54/8/083010</idno>
+					<note type="submission">Received 14 February 2014, revised 17 April 2014 Accepted for publication 7 May 2014</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-04-19T02:27+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>tearing mode stability</term>
+					<term>electron cyclotron emission imaging</term>
+					<term>synthetic diagnostic</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The accuracy in estimation of two important tearing mode stability parameters ( ′ and w c ) is improved by employing twodimensional (2D) ECE imaging data which help one to overcome the resolution limit of conventional one-dimensional data. The experimentally measured 2D images are directly compared with synthetic ones from a tearing mode T e model to estimate the parameters and an excellent agreement is achieved. The results imply that the observed tearing mode is classically stable but has non-negligible bootstrap current drive.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.0" lry="841.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.0" lry="841.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.0" lry="841.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.0" lry="841.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.0" lry="841.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.0" lry="841.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.0" lry="841.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>The tearing mode is an internal resistive instability which tears the nested magnetic flux surfaces and forms a magnetic island across the rational flux surface in tokamak plasmas. The magnetic island of this mode reconnects the inner and outer regions of the rational surface. When the island size is sufficiently large so that the cross-field transport effect is negligible, the pressure profile inside the island is flattened due to rapid parallel transport along the connected field line <ref type="bibr" coords="2,78.62,648.41,10.05,9.62" target="#b0">[1]</ref>. Since the large island with the flattened pressure profile prevents high β plasma operation and often leads to a disruption, a precise understanding of the magnetic island dynamics has been an important issue and studied actively.</p><p>The temporal dynamics of the magnetic island of the tearing mode has been understood within the frame of the modified Rutherford equation (MRE) <ref type="bibr" coords="2,215.03,715.91,11.04,9.62" target="#b1">[2]</ref> as given in the following:</p><formula xml:id="formula_0" coords="2,86.05,744.34,203.67,24.90">a 1 τ r r s dw dt = r s ′ + a 2 r s √ ϵβ θ L q L p w w 2 + w 2 c + • • • , (<label>1</label></formula><formula xml:id="formula_1" coords="2,289.72,750.98,3.68,9.62">)</formula><p>where w is the island half-width, a 1 and a 2 are coefficients related to the flux surface geometry, r s is the minor radius of the rational flux surface, τ r = µ 0 r 2 s /η is the current diffusion time where η is the plasma resistivity, ϵ is the inverse aspect ratio, β θ is the plasma poloidal beta and L q = q/q ′ and L p = p/p ′ where q is the safety factor, p is the total pressure and the prime denotes the radial derivative. The first term with the nonlinear classical tearing stability index ′ is related to the equilibrium current profile, which can be either stabilizing or destabilizing. The second term is the neoclassical destabilizing term which stems from the loss of bootstrap current due to pressure flattening inside the island. w c is the critical halfwidth for the pressure flattening. When the second term is dominant, it becomes the neoclassical tearing mode which is known to be harmful for high β plasma operation <ref type="bibr" coords="2,496.50,699.57,10.05,9.62" target="#b2">[3]</ref>. Terms from the polarization current and magnetic field curvature are omitted, because they are known to be important near the onset of tearing mode which is not considered in this paper.</p><p>Identification of the main driving/decaying mechanism of the large magnetic island is important for steady-state, high β plasma operation. In order to develop a control method based on growth dynamics of the MRE, an accurate determination of the two stability parameters, ′ and w c , is essential among the parameters in <ref type="bibr" coords="3,114.52,288.87,10.05,9.62" target="#b0">(1)</ref>. Numerous studies <ref type="bibr" coords="3,202.63,288.87,8.20,9.62" target="#b3">[4]</ref><ref type="bibr" coords="3,210.83,288.87,4.10,9.62" target="#b4">[5]</ref><ref type="bibr" coords="3,214.93,288.87,8.20,9.62" target="#b5">[6]</ref> with conventional one-dimensional (1D) experimental data have been performed to model the magnetic island T e structure of the tearing mode and determine those parameters. However, the estimated ′ and w c based on 1D experimental data have been limited to the uncertainty from insufficient spatial resolution of the data <ref type="bibr" coords="3,280.00,345.82,10.05,9.62" target="#b4">[5]</ref>.</p><p>Techniques such as radial plasma jogging were introduced to reduce the uncertainties <ref type="bibr" coords="3,157.67,368.60,10.05,9.62" target="#b3">[4]</ref>, under the assumption that the perturbation from jogging does not influence the stability of the tearing mode. The two-dimensional (2D) electron cyclotron emission imaging (ECEI) diagnostic is ideal for the study of various MHD instabilities <ref type="bibr" coords="3,131.65,425.67,8.41,9.62" target="#b6">[7]</ref><ref type="bibr" coords="3,140.07,425.67,4.21,9.62" target="#b7">[8]</ref><ref type="bibr" coords="3,140.07,425.67,4.21,9.62" target="#b8">[9]</ref><ref type="bibr" coords="3,144.27,425.67,12.62,9.62" target="#b9">[10]</ref> and has provided 2D T e fluctuation data with an unprecedented high temporal and spatial resolution. In section 2, the detailed magnetic island structures measured by the 2D ECEI diagnostic in KSTAR plasmas are provided with a brief description of the ECEI system. The T e model <ref type="bibr" coords="3,117.53,482.62,10.25,9.62" target="#b4">[5,</ref><ref type="bibr" coords="3,129.36,482.62,7.88,9.62" target="#b5">6]</ref> to be compared with the measurements for determination of ′ and w c is introduced in section 3. Statistical analysis by comparison of the modelled data with the measured ones (1D and 2D data) is performed and a clear advantage of 2D data is demonstrated in section 4. A summary follows at the end.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">The 2D magnetic island structure of tearing mode visualized by ECEI</head><p>The m/n = 2/1 magnetic island of the tearing mode has been observed in the KSTAR discharge # 7131. The toroidal field at the major radius was 1.96 T and the plasma was heated by two NBI with the total power of 3 MW. The 170 GHz ECRH power at 0.3 MW was turned on from 3.01 to 3.50 s. The plasma current was constant at 600 kA. The time evolution of the plasma poloidal beta (β θ ) and half-width (w) of the m/n = 2/1 island are depicted in figure <ref type="figure" coords="3,168.25,678.94,3.55,9.62" target="#fig_0">1</ref>. The half-width of the island is estimated from the Mirnov coil fluctuation amplitude divided by fluctuating frequency ( Ḃ dt ≈ Ḃ/f ), and this quantity is normalized by the half-width at 3.25 s. The mode locking and unlocking due to the magnetic island have repeated in this plasma and the β θ and w have evolved with the state of the plasma. The unlocked phase starts from 2.9 s in figure <ref type="figure" coords="3,271.41,747.28,3.55,9.62" target="#fig_0">1</ref>. As the β θ recovers in time, the w also increases. This correlation may suggest that the observed mode has the finite neoclassical driving term in <ref type="bibr" coords="3,364.50,96.82,10.05,9.62" target="#b0">(1)</ref>. Estimation of ′ and w c is necessary for more accurate analysis of the tearing mode dynamics, and the 2D ECEI diagnostic data near the 2/1 magnetic island around 3.25 s has been obtained for that purpose.</p><p>The 2D ECEI diagnostic measures high-resolution (space and time) images of the local electron temperature fluctuations near the m/n = 2/1 magnetic island produced by the tearing mode as shown in figure <ref type="figure" coords="3,397.87,175.17,14.85,9.62" target="#fig_1">2(a)</ref>. The 2D image (40 cm × 12 cm) consists of 192 pixels (24 detectors array and each detector has 8 horizontal channels). Each pixel represents the normalized fluctuations δTe,ECEI ⟨Te,ECEI⟩t = Te,ECEI-⟨Te,ECEI⟩t ⟨Te,ECEI⟩t</p><p>, where ⟨ ⟩ t means time average for many fluctuation periods. As the magnetic island structure rotates in the laboratory frame, different phases of the island are captured at different times. The first image in figure <ref type="figure" coords="3,329.22,254.81,3.99,9.62" target="#fig_1">2</ref>(b) corresponds to the image of the X-point phase (t 1 ) when the X-point of the magnetic island is at the centre of the ECEI view. The ECE images at four different phases (t 1 -t 4 ) cover the entire structure of the magnetic island. The channel in the region of r &lt; r s will detect higher temperatures (inner flux) at the X-point phase, but the channel at r &gt; r s will measure lower temperatures (outer flux) at the same time. This results in the phase inverted temperature fluctuations across the rational surface. The measured 2D data of δT e,ECEI /⟨T e,ECEI ⟩ t will be compared with the synthetic 2D normalized T e fluctuations from the T e model of the magnetic island to determine ′ and w c .</p><p>Even though the instrumental spatial resolution of the 2D ECEI diagnostic in (R, Z) is similar to that of the conventional 1D ECE diagnostic, the effective resolution of the 2D data in (r, ζ ) space can be much finer due to its 2D nature as illustrated in figure <ref type="figure" coords="3,381.88,433.91,10.68,9.62" target="#fig_1">2(c</ref>). Note that ζ is the helical angle in the direction perpendicular to the magnetic field at r s . For example, the horizontal channels of the single detector of the ECEI diagnostic can be considered as the conventional 1D ECE diagnostic, and the horizontal channels have a separation distance of ∼2.0 cm. The separation distance could not be reduced much in the 1D diagnostic to allow enough bandwidth for an adequate signal to noise ratio. However, the effective separation distance can be smaller than 1.0 cm with additional independent detectors in the 2D diagnostic as shown in figure <ref type="figure" coords="3,369.39,545.84,10.68,9.62" target="#fig_1">2(c</ref>). The channels from different detector row fill the r space by overlapping each other without loss of signal-to-noise ratio. Therefore, the 2D ECEI diagnostic can provide a fine resolution measurement of the magnetic island T e structure.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">The T e model for ∆ ′ and w c estimation</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Definition of ′ and w c</head><p>In this section, a brief description of the nonlinear classical stability parameter ( ′ ) and critical island half-width (w c ) of the tearing mode is given with basic principle employed in estimation of the parameters. From Maxwell's equation and Ohm's law, diffusion of the radial magnetic field B r can be written as</p><formula xml:id="formula_2" coords="3,389.10,718.92,144.80,24.94">∂B r ∂t ≈ η µ 0 ∂ 2 B r ∂r 2 . (<label>2</label></formula><formula xml:id="formula_3" coords="3,533.90,726.73,3.68,9.62">)</formula><p>Using the helical magnetic flux notation B = ∇ψ × êφ with single-helicity assumption where ψ is the helical magnetic </p><p>The relative difference in ψ ′ is defined as ′ (w) ≡ ψ ′ ψ | rs+w rs-w , where r s ± w are the magnetic island boundaries. Now, ′ can be determined if the magnetic flux function is known and the sign of ′ implies either the growth or decay of the island width as shown in <ref type="bibr" coords="4,131.31,545.80,10.05,9.62" target="#b2">(3)</ref>. w c is the critical half-width above which temperature is flattened inside the magnetic island <ref type="bibr" coords="4,234.35,571.52,10.05,9.62" target="#b0">[1]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>It was derived as</head><p>RqLq m ( κ⊥ κ∥ ) 1/4 by balancing between parallel and perpendicular heat transport where κ ∥ and κ ⊥ are the parallel and the perpendicular thermal conductivity, respectively <ref type="bibr" coords="4,271.32,611.57,10.25,9.62" target="#b0">[1,</ref><ref type="bibr" coords="4,283.15,611.57,6.83,9.62" target="#b1">2]</ref>.</p><p>Without a significant heat source or sink, the heat flow q = -κ ∥ ∇ ∥ T eκ ⊥ ∇ ⊥ T e will have zero divergence,</p><formula xml:id="formula_5" coords="4,132.54,660.77,160.85,18.23">κ ∥ ∇ 2 ∥ T e + κ ⊥ ∇ 2 ⊥ T e = 0.<label>(4)</label></formula><p>In general, the parallel thermal conductivity is much larger than the perpendicular one and the perpendicular transport term is often neglected. However, if the perpendicular term is finite, or w ∼ w c , the perpendicular transport changes the temperature profile inside the island in which the temperature does not follow the magnetic flux contours <ref type="bibr" coords="4,189.55,747.15,10.05,9.62" target="#b0">[1]</ref>. Therefore, temperature distribution over the island can be the measure of w c .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">The T e model in the vicinity of the magnetic island</head><p>The model for T e in the vicinity of the magnetic island can be obtained by solving (4) over the properly modelled magnetic geometry. The helical coordinates (r, ζ, φ) with the helical angle ζ = mθnz/R 0 are used in this modelling <ref type="bibr" coords="4,501.08,458.97,10.05,9.62" target="#b4">[5]</ref>. With κ ∥ /κ ⊥ ≫ 1, equation ( <ref type="formula" coords="4,390.60,470.04,3.68,9.62" target="#formula_5">4</ref>) can be rewritten as</p><formula xml:id="formula_6" coords="4,385.82,487.41,148.08,26.81">κ ∥ κ ⊥ ∇ 2 ∥ + ∇ 2 T e = 0. (<label>5</label></formula><formula xml:id="formula_7" coords="4,533.90,492.21,3.68,9.62">)</formula><p>The Laplacian is approximated as</p><formula xml:id="formula_8" coords="4,442.76,513.95,80.03,19.03">∇ 2 ≈ ∂ 2 ∂r 2 + ( m rs ) 2 ∂ 2</formula><p>∂ζ 2 in this equation, and the parallel gradient will be derived from the helical magnetic flux notation of magnetic field and slab geometry assumption as shown in the below:</p><formula xml:id="formula_9" coords="4,304.75,562.26,232.83,63.29">∇ ∥ = b • ∇ = 1 |B| -m rs ψ 1 sin ζ -∂ψ0 ∂r -∂ψ1 ∂r cos ζ • ∂ ∂r m rs ∂ ∂ζ = - m r s |B| ψ 1 sin ζ ∂ ∂r + ψ ′ 0 ∂ ∂ζ + ψ ′ 1 cos ζ ∂ ∂ζ ,<label>(6)</label></formula><p>where ψ 0 is the equilibrium helical magnetic flux function and ψ 1 is the perturbed flux function.</p><p>The equilibrium magnetic flux function will take the form of ψ 0 (r) = µ0I0 8π (( r a ) 2 -( rs a ) 2 ) 2 from the parabolic current profile assumption where I 0 is the peak value of the plasma current profile. The perturbed magnetic flux function will be modelled with three dimensionless parameters, α, β and γ , as <ref type="bibr" coords="4,315.00,706.52,11.04,9.62" target="#b4">[5]</ref>   This model function well behave in both limits r → 0 and r → ∞, satisfying vacuum solution of the tearing mode equation <ref type="bibr" coords="5,97.38,469.96,10.05,9.62" target="#b4">[5]</ref>, and it can provide various forms of realistic flux function (well fitted into solutions of the tearing mode equation).</p><formula xml:id="formula_10" coords="4,304.75,717.45,232.83,51.25">ψ 1 (r) = µ 0 I 0 8π α r r s m 1 -β r r s for r r s = µ 0 I 0 8π α(1 -β) -γ + γ r/r s (r/r s ) m+1 for r &gt; r s .<label>(7)</label></formula><p>Equation ( <ref type="formula" coords="5,117.49,503.62,3.68,9.62" target="#formula_6">5</ref>) will be solved with ( <ref type="formula" coords="5,203.77,503.62,3.68,9.62" target="#formula_9">6</ref>) and ( <ref type="formula" coords="5,232.55,503.62,3.68,9.62" target="#formula_10">7</ref>) and boundary T e values to obtain the T e (r, ζ ) profile near the magnetic island of tearing mode (see appendix A). Figure <ref type="figure" coords="5,288.67,526.07,4.73,9.62" target="#fig_3">3</ref> shows a parametric dependence of the T e solution. The three parameters, α, β and γ , determine the magnetic flux geometry of the island through ψ 1 , and the conductivity ratio κ ⊥ /κ ∥ affects the flatness of the T e profile inside the island. Examples of the T solution for different ′ (α, β, γ ) and w c (κ ⊥ /κ ∥ ) of the model are given in figure <ref type="figure" coords="5,171.65,593.39,3.55,9.62" target="#fig_3">3</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Comparative study between the measurements and synthetic images</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Reconstruction of synthetic data from the T e model</head><p>The T e solution of equation ( <ref type="formula" coords="5,178.25,669.37,3.68,9.62" target="#formula_6">5</ref>) is converted into synthetic ECEI data in two steps. First, the synthetic 2D T e data are reconstructed as if they are measured by the ECEI diagnostic by applying instrumental functions of the KSTAR ECEI system and emission theory. For example, each synthetic channel has the T e,syn value by</p><formula xml:id="formula_11" coords="5,110.96,744.10,182.43,23.98">T e,syn = T e F inst (R, Z) dRdZ F inst (R, Z) dRdZ ,<label>(8)</label></formula><p>where</p><formula xml:id="formula_12" coords="5,330.22,448.38,101.52,15.72">F inst (R, Z) = f (R) • g(Z)</formula><p>is the 2D response function of the ECEI channel. f (R) and g(Z) have a finite coverage as prescribed by the detection frequency bandwidth and vertical coverage, respectively. The functional shape of f (R) is calculated including the relativistic electron cyclotron radiation frequency downshift effect <ref type="bibr" coords="5,443.31,504.47,14.51,9.62" target="#b10">[11]</ref>. In the region where the 2/1 magnetic island is located, the reabsorption process minimizes the downshift effect and f (R) is close to ideal frequency response of the channel. The functional shape of g(Z) of the KSTAR ECEI diagnostic is known to be close to Gaussian shape <ref type="bibr" coords="5,368.06,561.42,14.51,9.62" target="#b11">[12]</ref>. Note that refraction effect due to the plasma density gradient is sufficiently small to be neglected in this case.</p><p>Second, the T e,syn is normalized by the time-averaged value ⟨T e,syn ⟩ t such as δTe,syn ⟨Te,syn⟩t = Te,syn-⟨Te,syn⟩t ⟨Te,syn⟩t</p><p>. Since the plasma rotates in time, ⟨T e,syn ⟩ t is essentially a time-averaged value along ζ . After normalization, the synthetic term, δT e,syn /⟨T e,syn ⟩ t , can be directly compared with the equivalent measured ECEI term, δT e,ECEI /⟨T e,ECEI ⟩ t . Basically, the structure of δT e,syn /⟨T e,syn ⟩ t depends on the shape of the T e solution which is deduced from four parameters (α, β, γ , κ ⊥ /κ ∥ ). Arbitrary initial boundary T e values (T e (r = 0.1) = 2.1 keV and T e (r = 0.4) = 0.9 keV) introduced in solving the model equation only affect the overall amplitude of the δT e,syn /⟨T e,syn ⟩ t and not its detailed shape. The solution can have a degree of freedom to have different boundary values in case the absolute T e measurement at the boundary is absent. Here, a scale parameter A is introduced such as A • δT e,syn /⟨T e,syn ⟩ t to allow different boundary values within the range 0.5 &lt; A &lt; 3.0. The range of A is restricted for the physically reasonable variation of the boundary values. For an each model parameter set, the value of A is determined to give the minimum difference between the synthetic and experimental data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Importance of higher resolution in synthetic data of the T e model</head><p>High spatial resolution is important to resolve small variations of synthetic data from different T e model parameters. In (r, ζ ) space, the resolution on ζ axis can be increased by employing additional detectors or using more measurement points in time, but the radial resolution can only be increased by additional detectors (figure <ref type="figure" coords="6,131.48,259.81,13.96,9.62" target="#fig_1">2(c)</ref>). The improved radial resolution in 2D diagnostic can enhance the resolving power among the synthetic data sets with different T e model parameters. This is demonstrated by comparing the synthetic data sets reconstructed from 1D and 2D measurements, respectively.</p><p>The seven horizontal channels on the midplane of the ECEI diagnostic system are selected to compose the 1D measurement. The synthetic data sets are reconstructed by the seven channels with the model parameter sets p = (α, β, γ , κ ⊥ /κ ∥ ) over (0.02 α 0.04, 0.82 β 0.98, -0.012 γ 0.03, 4 × 10 -10 κ ⊥ /κ ∥ 2 × 10 -8 ) space. The 5 4 = 625 combinations of p over the four-dimensional parameter space are used to generate the synthetic data sets. The 2 among the data sets are calculated to check the difference of a particular synthetic data set from other synthetic data sets with different T e model parameters. N is the number of data points (channel number × measurement points in time = 7 × 67 = 469), y n (p i ) is the synthetic data set of the parameters p i with the hypothetical random system noise and ŷn (p j ) is the synthetic data set of p j without noise. The 67 measurement points in time are used to make the ζ resolution comparable to that of the 2D measurement. If the χ 2 difference between p i and p j is less than the system noise level ( ((∂χ 2 /∂y)δy) 2 = 0.0017), the two parameter sets are not distinguishable. The calculation of χ 2 (p i , p j ) is repeated 20 times for different random system noises, and the average number of the parameter set whose synthetic data is indistinguishable with other synthetic data is 19 ± 3.3 out of 625 in the 1D measurement case.</p><formula xml:id="formula_13" coords="6,78.39,408.79,148.78,18.14">χ 2 (p i , p j ) = 1 2 N n=1 [y n (p i ) -ŷn (p j )]</formula><p>The above processes are repeated with 2D measurement channels, i.e. 7 (horizontal channels) × 20 (detectors) = 140 channels. In this case, 4 measurement points in time for each channel is used to make the ζ resolution and total number of data points N = 7×20×4 = 560 comparable with those of the previous case. However, the radial resolution is significantly improved with additional detectors. The average number of indistinguishable parameter set is 11.8±2.7, which means that the improved radial resolution results in enhanced resolving power. More clear distinction among the synthetic data sets allows higher confidence in the selected parameter set when they are compared with the experimentally measured data. This difference leads to more reliable and accurate estimation of ′ and w c through the usage of 2D measurements as shown in the following section.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Comparative analysis between the synthetic and measured data</head><p>The comparison between the synthetic data based on the model and experimentally measured data is non-trivial due to multivariables (four parameters) of the model. The Levenberg-Marquardt Algorithm (LMA), known as the most standard multi-parameter fitting algorithm, is introduced for analysis. After the initial parameter set p = (α, β, γ , κ ⊥ /κ ∥ ) is given with the Monte-Claro method, it is updated towards the minimum χ 2 (p) = 1 2 N n=1 [y n -ŷn (p)] 2 difference through the gradient descent method and Gauss-Newton method. y n is the measured data points and ŷn (p) is the synthetic data points from the T e model parameters p. The goal of this algorithm is to find the parameter set that has a global minimum χ 2 .</p><p>Two independent LMA trials are exercised with the 1D and 2D measurement channels to demonstrate the accuracy of parameter determination in the high resolution 2D data. In the first trial the seven horizontal channels from the single detector on the midplane among the ECEI detectors array are selected to simulate the 1D measurement, and then the 140 channels from 20 detectors are used in the second trial. The results of the LMA fits for 1D data and 2D data are shown in figures 4(a) and (b). Figure <ref type="figure" coords="6,430.99,342.75,4.05,9.62" target="#fig_4">4</ref>(a) shows the dependence of χ 2 on four parameters in the 1D data trial. It has the minimum χ 2 = 0.0168 at α = 0.0534, β = 1.000, γ = 0.0276 and (κ ⊥ /κ ∥ ) 1/4 √ B 0 = 0.003 66, where B 0 is magnetic field strength at the plasma major radius R 0 . Note that the χ 2 includes the measurement error in ECEI data ( ((∂χ 2 /∂y)δy) 2 ) estimated as 0.0017 in the 1D data. In other words, the parameter sets whose χ 2 difference is less than this value are statistically indistinguishable. Therefore, a group of parameter sets which have χ 2 &lt; 0.0185 is selected (below the dashed line in figure <ref type="figure" coords="6,425.41,456.69,15.48,9.62" target="#fig_4">4(a)</ref>) for estimation of ′ and w c rather than a single parameter set.</p><p>The result of the 2D fit that has the minimum χ 2 = 0.0402 at α = 0.0382, β = 0.949, γ = -0.003 82 and (κ ⊥ /κ ∥ ) 1/4 √ B 0 = 0.006 91 is shown in figure <ref type="figure" coords="6,495.82,502.38,3.66,9.62" target="#fig_4">4</ref>(b). The parameter sets of χ 2 &lt; 0.0422 are selected for further analysis considering the χ 2 error of 0.002 (below the dashed line in figure <ref type="figure" coords="6,329.90,536.56,3.66,9.62" target="#fig_4">4</ref>(b). More data points used in the 2D case increased the propagated error on χ 2 ).</p><p>Finally, ′ = ψ ′ ψ | rs+w rs-w and w c = RqLq m ( κ⊥ κ∥ ) 1/4 calculated using the selected parameter sets of 1D (black squares) and 2D (red squares) fits are shown in figure <ref type="figure" coords="6,473.97,587.60,10.68,9.62" target="#fig_4">4(c</ref>). Note that the island separatrix estimated by the ECE images is used for the ′ calculation and w ∼ 3 cm at both ends. The distribution of ′ and w c values of each group is fitted with the Gaussian-function. The results are r s ′ = 7.653 ± 2.251 and w c = 0.899 ± 0.154 cm for 1D fit and r s ′ = -1.633 ± 1.265 and w c = 0.612 ± 0.0726 cm for 2D fit. The estimated r s ′ and w c values from the 1D and 2D fits are very different, and the standard deviation of the 1D fit is significantly larger than that of 2D result in both r s ′ and w c as expected from the previous section. Large standard deviation implies that the statistically selected parameter sets from the 1D fit have too large uncertainty to have a physically convergent solution. In fact, the result of the 1D fit has a non-physical perturbed flux function ψ 1 which does not converge to zero at the plasma boundary in contrast to the result from the 2D fit, meaning that only the 2D fit results in physically meaningful output. Also, the stability calculation based on the ideal MHD theory (see appendix B) <ref type="bibr" coords="7,108.02,479.18,14.98,9.62" target="#b12">[13,</ref><ref type="bibr" coords="7,124.58,479.18,12.62,9.62" target="#b13">14]</ref> is consistent with the estimation of the 2D fit, i.e. classically stable. In conclusion, from the result of the 2D analysis, the negative r s ′ = -1.633 ± 1.265 represents that the tearing mode is classically stable and w c /w ∼ 0.2 implies that the pressure profile is almost flat and that the bootstrap current loss is not negligible.</p><p>Good agreement between the measured 2D experimental data and synthetic data at the minimum χ 2 parameter set is illustrated in figure <ref type="figure" coords="7,134.57,571.14,3.55,9.62" target="#fig_5">5</ref>. The upper trace in figure <ref type="figure" coords="7,240.30,571.14,4.73,9.62" target="#fig_5">5</ref> is a point by point comparison of the measured and synthetic data sets. The 2D measured (upper) and synthetic (lower) ECE images at four different phases are compared and an excellent agreement at every phase provides a high confidence in the estimated values of ′ and w c .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusion</head><p>High resolution 2D images of electron temperature fluctuations near the m/n = 2/1 magnetic island of the tearing mode were measured with the ECEI diagnostic in KSTAR plasmas. The important stability parameters of the tearing mode ( ′ and w c ) are estimated using the 2D δT e,ECEI /⟨T e,ECEI ⟩ t data. The measured data were compared with the synthetic data from the T e solution of the heat flow equation near the magnetic island. The T e solution has four dependent parameters: three parameters (α, β, γ ) are associated with the magnetic geometry and the parameter κ ⊥ /κ ∥ is associated with the perpendicular transport over the island. The importance of high resolution 2D data in estimation of ′ and w c is demonstrated by comparing with analysis of the self-consistent 1D data. The estimated tearing mode parameters using 2D data are r s ′ = -1.633±1.265 and w c = 0.612±0.0726 cm. The observed tearing mode is expected to be classically stable, but to have non-negligible neoclassical bootstrap current drive.  </p><formula xml:id="formula_14" coords="7,370.85,718.38,6.66,7.73">ψ</formula></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="3,60.57,210.91,130.33,9.28;3,194.07,210.91,87.77,8.65;3,60.57,220.37,227.68,8.65;3,60.57,229.83,90.85,8.65"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. The plasma poloidal beta β θ and the normalized island half-width are drawn together. The island half-width is normalized by the half-width at 3.25 s.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="4,60.57,333.49,144.33,8.65;4,207.03,334.27,6.68,14.15;4,215.84,333.49,198.40,8.65;4,416.60,334.27,6.64,14.15;4,425.61,333.49,95.13,8.65;4,60.57,342.96,477.01,8.65;4,60.57,352.42,453.48,8.65;4,60.57,361.89,468.66,8.65;4,60.57,371.35,453.50,8.65;4,60.57,380.81,467.95,9.31;4,60.57,390.28,31.93,8.65;4,60.57,409.01,67.96,9.62;4,133.54,409.87,7.03,15.72;4,145.39,409.01,148.01,9.62;4,60.57,420.93,133.60,10.42;4,201.79,421.79,7.21,15.72;4,215.62,422.77,6.96,7.73;4,222.86,419.76,3.31,6.73;4,231.34,420.93,61.20,9.62;4,60.57,432.85,131.04,9.62;4,137.87,457.01,11.89,9.62;4,139.75,470.37,7.56,9.62;4,153.81,464.51,7.38,15.72;4,171.08,458.85,4.92,7.73;4,166.09,470.37,14.59,10.42;4,183.46,456.45,9.30,11.00;4,184.59,472.21,6.66,7.73;4,197.45,456.04,13.50,5.41;4,369.95,246.15,75.68,68.18"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. (a) The 192 pixels (24 detectors × 8 horizontal channels) of the 2D ECE image near the m/n = 2/1 island in the plasma are shown. Perturbed magnetic flux surfaces of the island are illustrated with black lines over the EFIT reconstructed equilibrium (dashed lines). Coloured boxes represent measurement area of channels of three detectors in (R, Z) space. (b) Four images at different phases of the magnetic island are plotted as it rotates in time around 3.25 s. The X-point and O-point of the island are indicated with the white X and O marks, respectively. (c) The effective spatial resolution in (r, ζ ) space is significantly improved in the 2D diagnostic. Coloured boxes represent measurement area of the channels in (r, ζ ) space. Additional detectors allow fine radial measurements of the magnetic island T e structure. flux function and êφ is unit vector along magnetic field at r s and employing the relation B r ∝ w 2 and constant ψ approximation, it is integrated into dw dt ∼ η 2µ 0 ψ ′ ψ rs+w</figDesc><graphic coords="4,369.95,246.15,75.68,68.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="5,107.97,103.56,105.78,10.50;5,235.91,103.56,116.03,10.50;5,373.13,103.56,110.94,10.50;5,91.23,87.49,68.29,11.69;5,175.49,87.49,50.66,11.69;5,283.19,87.49,20.20,11.69;5,337.40,87.49,37.90,11.69;5,91.77,236.83,68.35,11.71;5,176.10,236.83,50.71,11.71;5,260.81,236.83,175.41,11.71;5,147.81,250.26,34.12,10.50;5,158.42,219.57,16.30,11.69;5,289.80,250.26,34.12,10.50;5,423.90,250.26,34.12,10.50;5,488.15,95.92,23.79,10.50;5,489.00,244.50,23.78,10.50;5,133.47,121.32,25.62,10.50;5,267.47,121.32,17.94,10.50;5,402.95,121.32,18.01,10.50;5,129.51,267.54,34.09,10.50;5,262.67,267.54,34.10,10.50;5,396.97,267.54,34.11,10.50;5,92.33,264.30,5.68,11.69;5,92.33,277.88,5.68,11.71;5,92.33,291.50,5.68,11.69;5,92.33,305.09,5.68,11.69;5,92.33,318.69,5.68,11.69;5,92.33,332.28,5.68,11.69;5,92.33,345.86,5.68,11.71;5,498.49,108.24,14.21,11.69;5,498.49,119.52,14.21,11.69;5,498.49,130.86,14.24,11.71;5,498.49,142.24,14.21,11.69;5,498.49,153.52,14.21,11.69;5,498.49,164.87,14.21,11.69;5,498.49,176.22,14.21,11.69;5,498.49,187.51,14.21,11.69;5,498.49,198.85,14.24,11.71;5,500.63,256.42,12.77,10.50;5,500.63,267.70,12.77,10.50;5,500.63,279.04,12.76,10.52;5,500.63,290.41,12.77,10.50;5,500.63,301.69,12.77,10.50;5,500.63,313.05,12.77,10.50;5,500.63,324.40,12.77,10.50;5,500.63,335.68,12.77,10.50;5,500.63,347.02,12.76,10.52;5,227.36,264.30,5.68,11.69;5,227.36,277.88,5.68,11.71;5,227.36,291.50,5.68,11.69;5,227.36,305.09,5.68,11.69;5,227.36,318.69,5.68,11.69;5,227.36,332.28,5.68,11.69;5,227.36,345.86,5.68,11.71;5,360.56,264.30,5.68,11.69;5,360.56,277.88,5.68,11.71;5,360.56,291.50,5.68,11.69;5,360.56,305.09,5.68,11.69;5,360.56,318.69,5.68,11.69;5,360.56,332.28,5.68,11.69;5,360.56,345.86,5.68,11.71;5,90.67,209.21,13.03,11.71;5,120.68,209.21,99.84,11.71;5,92.33,117.70,5.68,11.69;5,92.33,131.30,5.68,11.69;5,92.33,144.89,5.68,11.69;5,92.33,158.49,5.68,11.69;5,92.33,172.07,5.68,11.71;5,92.33,185.68,5.68,11.69;5,92.33,199.28,5.68,11.69;5,227.36,117.70,5.68,11.69;5,227.36,131.30,5.68,11.69;5,227.36,144.89,5.68,11.69;5,227.36,158.49,5.68,11.69;5,227.36,172.07,5.68,11.71;5,227.36,185.68,5.68,11.69;5,227.36,199.28,5.68,11.69;5,360.56,117.70,5.68,11.69;5,360.56,131.30,5.68,11.69;5,360.56,144.89,5.68,11.69;5,360.56,158.49,5.68,11.69;5,360.56,172.07,5.68,11.71;5,360.56,185.68,5.68,11.69;5,360.56,199.28,5.68,11.69;5,226.47,209.21,13.03,11.71;5,256.48,209.21,117.12,11.71;5,390.54,209.21,99.88,11.71;5,158.42,366.83,16.30,11.69;5,90.67,356.48,13.03,11.69;5,120.71,356.48,118.69,11.69;5,256.39,356.48,116.99,11.69;5,390.38,356.48,100.27,11.69"><head></head><label></label><figDesc>25 0.3 0.35 0.4 0.2 0.25 0.3 0.35 0.4 0.2 0.25 0.3 0.35 0.4</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="5,60.57,389.75,230.35,9.31;5,290.92,393.81,4.43,9.43;5,295.82,391.40,8.19,6.96;5,304.01,393.81,2.83,9.43;5,307.32,389.75,210.08,8.65;5,60.57,399.22,464.85,9.31;5,60.57,408.37,141.20,9.43;5,201.77,412.74,4.43,9.43;5,206.67,410.33,8.19,6.96;5,214.86,412.74,2.83,9.43;5,220.30,408.68,312.80,8.65;5,60.57,418.14,388.22,8.65;5,233.63,261.99,120.24,91.94"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Dependence of T e solution on four parameters (α, β, γ , κ ⊥ /κ ∥ ) is illustrated. Black line contours are magnetic flux function contours and colour contours are T e contours. (a) The first three parameters (α, β, γ ) determine the magnetic geometry of the island and examples for different ′ are given. (b) κ ⊥ /κ ∥ affects the perpendicular heat transport and determines the temperature distribution over the island. As the perpendicular conductivity increases, the temperature gradient inside the magnetic island increases.</figDesc><graphic coords="5,233.63,261.99,120.24,91.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="7,60.57,417.43,71.79,8.65;7,176.83,416.61,343.06,9.48;7,60.57,426.59,443.91,9.62;7,60.57,436.36,269.16,8.65"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Parametric of χ 2 from (a) 1D fit and (b) 2D fit. Small χ 2 parameter sets are selected (below the dashed line) for estimation of ′ and w c (c) Distribution of r s ′ and w c from 1D (black squares) and 2D (red squares) fit. The result from 2D fit is statistically more convergent and also provides physically meaningful solution.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5" coords="8,60.57,484.50,219.87,8.65;8,60.57,493.97,230.69,8.65;8,60.57,502.60,202.63,9.48;8,60.57,512.90,232.83,9.31;8,60.57,522.36,77.60,8.65"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5.An excellent agreement between the measured images and the synthetic ones is shown. The parameter set of the minimum χ 2 in 2D fit was used to generate the synthetic images. The measured and synthetic images are matched well at all phases (t 1 -t 4 ) of the magnetic island.</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>This work was supported by <rs type="funder">NRF Korea</rs> under grant no <rs type="grantNumber">NRF-2009-0082507</rs> and <rs type="funder">US DoE</rs> under contract No <rs type="grantNumber">DE-FG-02-99ER54531</rs>. Two of the authors (KJG and CB) would like to acknowledge support from the <rs type="funder">UK Engineering and Physical Sciences Research Council</rs> under grant <rs type="grantNumber">EP/H049460/1</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_NzZumVU">
+					<idno type="grant-number">NRF-2009-0082507</idno>
+				</org>
+				<org type="funding" xml:id="_rXnhAuz">
+					<idno type="grant-number">DE-FG-02-99ER54531</idno>
+				</org>
+				<org type="funding" xml:id="_nQqTEzn">
+					<idno type="grant-number">EP/H049460/1</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A. The heat flow equation</head><p>The heat flow equation for electron temperature can be rewritten with equation <ref type="bibr" coords="7,395.20,691.60,11.04,9.62" target="#b5">(6)</ref> as</p><p>In the above equation, T e is expanded in Fourier series solutions,</p><p>T j (r) cos jζ .</p><p>(A.2) Substitute (A.2) into (A.1), and then (A.1) is multiplied with 1 2π cos kζ and integrated with respect to ζ to give the second order ordinary equation for each k as shown in below:</p><p>where a k,j , b k,j and c k,j are corresponding coefficients and the prime denotes the radial derivative. This equation is now solved using the second order finite difference method with boundary T e values and Fourier harmonics up to the 15th order.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix B. ∆ ′ calculation from the Ideal MHD theory</head><p>The tearing mode equation from the ideal MHD theory can be reduced as <ref type="bibr" coords="8,347.32,130.44,14.98,9.62" target="#b12">[13,</ref><ref type="bibr" coords="8,363.88,130.44,8.41,9.62" target="#b13">14</ref>]</p><p>where k = -(µ 0 j ′ q/B θ q ′ ) rs , j ′ is the toroidal current gradient and s = rr s . The equation has a singularity at r = r s . This second order ordinary differential equation is solved with the shooting method <ref type="bibr" coords="8,369.02,214.23,14.51,9.62" target="#b13">[14]</ref>. Form of two independent solutions near the rational surface r s is known to be</p><p>and its radial derivative is</p><p>where A -and A + are constants for r &lt; r s and r &gt; r s regions, respectively. The solution is restricted by the decaying boundary condition at both ends (r = 0 and r = a where a is the plasma boundary). Arbitrary initial A ± values are tried and proper constants A ± which satisfy the boundary condition could be found by after some iterations. Then </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="8,323.67,456.32,151.90,8.94" xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Fitzpatrick</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.871434</idno>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,391.82,456.72,49.69,8.53">Phys. Plasmas</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="825" to="838" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,323.67,465.78,171.24,8.94" xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">R</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,387.46,466.18,69.12,8.53">Fusion Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="123" to="131" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,323.67,475.25,153.79,8.94" xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">La</forename><surname>Haye</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">J</forename></persName>
+		</author>
+		<idno type="DOI">10.1063/1.2180747</idno>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,389.44,475.65,49.69,8.53">Phys. Plasmas</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">55501</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,323.67,484.99,202.63,8.65;8,333.14,494.46,164.68,8.65;8,333.14,503.64,154.76,8.94" xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">D</forename><surname>Callen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">A</forename><surname>Gianakon</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">C</forename><surname>Hegna</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Z</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">D</forename><surname>Fredrickson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">M</forename><surname>Mcguire</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">C</forename><surname>Zarnstorff</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.872729</idno>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,408.40,504.04,49.69,8.53">Phys. Plasmas</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="450" to="454" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,323.67,513.39,209.38,8.65;8,333.14,522.85,185.52,8.65;8,333.14,532.03,145.14,8.94" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" coord="8,418.71,522.85,80.78,8.65">ASDEX Upgrade Team</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">P</forename><surname>Meskat</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Zohm</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Gantenbein</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Günter</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Maraschek</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Suttrop</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Yu</forename><forename type="middle">Q</forename><surname>The</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0741-3335/43/10/304</idno>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,333.14,532.43,102.55,8.53">Plasma Phys. Control. Fusion</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="1325" to="1332" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,323.67,541.78,204.95,8.65;8,333.14,551.24,187.07,8.65;8,333.14,560.43,180.98,8.94" xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">A</forename><surname>Snape</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K J</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">O</forename><surname>'gorman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Barratt</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">C</forename><surname>Imada</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H R</forename><surname>Tallents</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><forename type="middle">J</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">I</forename><surname>Team</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0741-3335/54/8/085001</idno>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,373.23,560.83,102.55,8.53">Plasma Phys. Control. Fusion</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page">85001</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,323.67,570.17,197.66,8.65;8,333.14,579.64,198.28,8.65;8,333.14,588.82,131.73,8.94" xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">H K</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jr</forename><forename type="middle">N C</forename><surname>Luhmann</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A J H</forename><surname>Donné</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">I G J</forename><surname>Classen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">W</forename><surname>Domier</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Mazzucato</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Munsat</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Van De Pol</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Z</forename><surname>Xia</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.96.195003</idno>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,374.07,589.22,52.47,8.53">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page">195003</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,323.67,598.57,190.16,8.65;8,333.14,608.03,202.19,8.65;8,333.14,617.49,196.98,8.65;8,333.14,626.68,109.97,8.94" xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">I G J</forename><surname>Classen</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">TEXTOR Team</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Westerhof</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">TEXTOR Team</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">W</forename><surname>Domier</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">TEXTOR Team</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A J H</forename><surname>Donné</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">TEXTOR Team</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R J E</forename><surname>Jaspers</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">TEXTOR Team</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName coords=""><surname>Luhmann</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">TEXTOR Team</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">C</forename><surname>Jr</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">TEXTOR Team</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H K</forename><surname>Park</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">TEXTOR Team</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Van</forename><surname>De Pol</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">TEXTOR Team</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">J</forename><surname>Spakman</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">TEXTOR Team</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><forename type="middle">W</forename><surname>Jakubowski</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">TEXTOR Team</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename></persName>
+			<affiliation>
+				<orgName type="collaboration">TEXTOR Team</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.98.035001</idno>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,352.31,627.08,52.47,8.53">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page">35001</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,323.67,636.42,213.90,8.65;8,333.14,645.89,185.17,8.65;8,333.14,655.07,164.42,8.94" xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">G</forename><forename type="middle">S</forename><surname>Yun</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">KSTAR Team</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Lee</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">KSTAR Team</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">J</forename><surname>Choi</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">KSTAR Team</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Lee</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">KSTAR Team</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H K</forename><surname>Park</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">KSTAR Team</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Tobias</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">KSTAR Team</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">W</forename><surname>Domier</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">KSTAR Team</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName coords=""><surname>Luhmann</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">KSTAR Team</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">C</forename><surname>Jr</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">KSTAR Team</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A J H</forename><surname>Donné</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">KSTAR Team</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Lee</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">KSTAR Team</orgName>
+			</affiliation>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,402.49,655.47,52.47,8.53">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page">45004</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,323.67,664.82,197.08,8.65;8,333.14,674.00,40.46,8.94" xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Yun</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">KSTAR Team</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.109.145003</idno>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,468.29,664.94,52.47,8.53">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page">145003</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,323.67,683.75,188.02,8.65;8,333.14,693.21,165.98,8.65" xml:id="b10">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">I</forename><surname>Hutchinson</surname></persName>
+		</author>
+		<title level="m" coord="8,397.49,683.87,114.20,8.53">Principles of Plasma Diagnostics</title>
+		<meeting><address><addrLine>Cambridge</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="page">165</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,323.67,702.67,202.87,8.65;8,333.14,711.86,195.40,8.94;8,333.14,721.60,27.45,8.65" xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Tobias</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">X</forename><surname>Kong</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">W</forename><surname>Domier</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N C</forename><surname>Luhmann</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Lee</forename><forename type="middle">W</forename><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Yun</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H K</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,458.32,712.26,59.57,8.53">Rev. Sci. Instrum</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="10D" to="909" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,323.67,731.07,208.63,8.65;8,333.14,740.25,31.94,8.94" xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Nishimura</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Callen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C C</forename><surname>Hegna</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.873166</idno>
+	</analytic>
+	<monogr>
+		<title level="j" coord="8,482.62,731.19,49.69,8.53">Phys. Plasmas</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="4292" to="4299" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,323.67,750.00,184.26,8.65;8,333.14,759.46,79.87,8.65" xml:id="b13">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Wesson</surname></persName>
+		</author>
+		<title level="m" coord="8,376.70,750.00,61.67,8.65">Tokamaks 3rd edn</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2004">2004</date>
+			<biblScope unit="page">324</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
